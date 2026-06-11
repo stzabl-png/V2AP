@@ -1,0 +1,4 @@
+open_pinch_forward_offset_m: 0.015
+notes: |
+  Open-grip arm IK: tip-line align point at p_titan + open_pinch_forward_offset_m * approach.
+  Override on CLI: run_auto_grasp.py --open-pinch-forward-offset 0.02

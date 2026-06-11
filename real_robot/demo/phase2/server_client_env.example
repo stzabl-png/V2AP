@@ -1,0 +1,18 @@
+# Copy this file to server_client_env.sh and fill in your values.
+# Source it before running Phase 2: source server_client_env.sh
+#
+# V2AP project root on your GPU server (the machine running the affordance pipeline):
+export PIPELINE_TITAN_ROOT=/path/to/V2AP
+
+# SSH Host for the GPU server:
+export PIPELINE_TITAN_SSH_HOST=user@your-gpu-server
+
+# Titan trigger mode (default: daemon — requires segment_daemon running on server):
+export PIPELINE_TITAN_MODE=daemon
+export PIPELINE_TITAN_SEGMENT_TUNNEL_PORT=7860
+export PIPELINE_TITAN_AUTO_SAM_POPUP=1
+
+# Optional:
+export PIPELINE_TITAN_CONDA_ENV=bundlesdf
+export PIPELINE_REMOTE_SESSIONS_SUBDIR=demo/sessions
+export PIPELINE_POLL_INTERVAL_S=15

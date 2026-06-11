@@ -1,0 +1,37 @@
+# Phase 1 grasp config template
+# Copy to my_object.yaml and tune on robot with:
+#   python demo/phase1/pose_tuner.py --object-name my_object
+
+object_name: template
+table_height: 0.85
+
+# 4x4 homogeneous grasp pose for Dexmate R_ee in robot base frame.
+# pre_grasp is derived: retreat 0.15 m along -approach (R[:, 2]).
+grasp_pose:
+  - [-0.07041831, -0.04592435, 0.99645984, 0.40]
+  - [-0.03512447, 0.99843434, 0.04353315, -0.25]
+  - [-0.99689896, -0.03193459, -0.07192112, 0.99]
+  - [0.0, 0.0, 0.0, 1.0]
+
+# Optional explicit overrides (null = auto from grasp_pose):
+pre_grasp_pose: null
+lift_pose: null
+
+pre_grasp_offset_m: 0.15
+lift_height_m: 0.15
+hold_time_s: 3.0
+
+left_arm_joint_pos: [0.84, 0.51, 0.37, -1.30, -0.65, -0.29, -0.03]
+right_arm_joint_pos: [-0.84, -0.51, -0.37, -1.30, 0.65, 0.29, 0.03]
+torso_joint_pos: [1.2, 2.27, 0.5]
+head_joint_pos: [0.3491, 0.0, 0.0]  # ~20° down on head_j1 (demo default; overridden at run_grasp)
+
+left_hand_joint_pos: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+# Hand joints: null = load demo/right_hand_profile.yaml (shared, tune with hand_tuner.py)
+hand_open_joint_pos: null
+hand_closed_joint_pos: null
+
+notes: >
+  PLACEHOLDER — tune grasp_pose on Razor with pose_tuner.py (> to save).
+  Tune hand open/closed once with hand_tuner.py (all objects share the profile).

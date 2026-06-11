@@ -1,0 +1,53 @@
+{
+  "camera_frame": "zed_left_camera",
+  "width": 640,
+  "height": 360,
+  "K": [
+    [
+      190.53290846068992,
+      0.0,
+      317.3777289060325
+    ],
+    [
+      0.0,
+      172.37719692126257,
+      184.40564021189294
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "fx": 190.53290846068992,
+  "fy": 172.37719692126257,
+  "cx": 317.3777289060325,
+  "cy": 184.40564021189294,
+  "distortion_model": "plumb_bob",
+  "dist_coeffs": [
+    0.0042244258666400605,
+    -0.001071605136834047,
+    -0.002977924409797224,
+    -0.0003299271513460427,
+    0.00034711048799465437
+  ],
+  "source": "charuco_calibration",
+  "calibration": {
+    "method": "opencv_aruco_charuco",
+    "reprojection_rms_px": 0.22466900488786623,
+    "num_views": 17,
+    "created_at_iso": "2026-06-02T19:23:22.600206-07:00",
+    "board": {
+      "square_length_m": 0.02,
+      "marker_length_m": 0.015,
+      "aruco_dict": "DICT_5X5_100",
+      "vendor_note": "calib.io 9x14 20mm/15mm DICT_5X5",
+      "squares_x": 14,
+      "squares_y": 9,
+      "detect_resolution": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  }
+}
