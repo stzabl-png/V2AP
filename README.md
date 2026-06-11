@@ -1,47 +1,21 @@
-# Affordance2Grasp
+# V2AP: Video-to-Affordance-to-Pose
 
-> **Learning "where to grasp" from human hand-object interaction videos — no depth sensor, no object calibration needed.**
+> **Learning robot grasp affordances from human hand-object interaction videos — no depth sensor, no object calibration, no robot demonstrations needed.**
+
+[[Paper](#)] [[Project Page](#)] [[HuggingFace Dataset](https://huggingface.co/UCBProject)]
 
 ---
 
-## What is this project?
+## What is V2AP?
 
-Robots need to learn how to grasp objects. Traditional approaches require expensive robotic demonstrations or manually engineered grasp databases. We take a different route: **we learn from videos of humans interacting with objects**.
+Robots need to learn how to grasp objects. Traditional approaches require expensive robotic demonstrations or manually engineered grasp databases. V2AP takes a different route: **we learn from internet-scale videos of humans interacting with objects**.
 
 The core insight is that **humans naturally grasp objects at mechanically sound contact points**. By extracting these contact regions from large-scale video datasets and filtering them through physics simulation, we can teach a robot *where* to grasp any object — without ever collecting a single robot demonstration.
 
-**Key advantage:** Unlike trajectory-based imitation learning, we predict **contact points** (object-level, geometry-aware), not full arm trajectories. This makes the model object-agnostic and generalizable across unseen objects.
+**Key advantage:** Unlike trajectory-based imitation learning, we predict **contact points** (object-centric, geometry-aware), not full arm trajectories. This makes the model robot-agnostic and generalizable to unseen objects.
 
 ---
 
-## Integration State (2026-05-14)
-
-This branch is partially synced with `origin/main`:
-
-- **Adopted** all 18 of the partner's non-refactor commits (docs translations, smoke-test fixes, portability cleanup, `Baseline2/` mirror, new eval scripts, `model/train.py` simplification, `sim/convert_batch_usd.py` SAM3DMesh support).
-- **Rejected (for now)** the `7ee2f96 refactor: unified ProcessedData layout` path renames (`third_depth/` → `third/`, `K.txt` → `K.npy`, `obj_poses/` → `third/`, `egocentric/` root). Reason: that refactor is **partial** — it updates Steps 1 / 3 (`batch_depth_pro.py`, `batch_obj_pose.py`) but not Step 4 (`batch_align_mano_fp.py`, which still reads `obj_poses/` and `K.txt`), so adopting it as-is breaks the pipeline at Step 4. Our 95 GB of Phase 1A intermediate data is in the old layout. Deferred until the refactor is completed upstream — we keep the new docs (`docs/A100_DEPLOY_QUICK.md`) for partner reference but flag here that the layout described there is **aspirational**, not current.
-
-**Current (active) layout — the old / pre-`7ee2f96` one:**
-
-```
-data_hub/ProcessedData/
-├── third_depth/{dataset}/{seq}/   # Step 1 (DepthPro): depths.npz, K.txt, frame_ids.txt
-├── third_mano/{dataset}/{seq}.npz # Step 2 (HaPTIC verts)
-├── obj_poses/{dataset}/{seq}/     # Step 3 (FoundationPose): ob_in_cam/, track_vis/
-├── obj_meshes/{dataset}/{obj}/    # SAM3D meshes (also on HF: UCBProject/ObjMesh)
-├── obj_recon_input/{dataset}/     # SAM2 masks (FP init + obj recon)
-├── training_fp/{dataset}/{obj}.hdf5   # Step 4 → Phase 2 training data
-└── human_prior_fp/{obj}.hdf5          # Step 4 → Phase 3 inference prior
-```
-
-Local-only improvements we kept (not in `origin/main` yet):
-
-- `tools/batch_obj_pose.py`: **leak fix** — `shutil.rmtree(scene_dir)` in the per-seq `finally:` block (the 2026-05-13 disk-full incident; `/tmp/fp_scenes/` had accumulated ~243 GB across the DexYCB Step 3 run). Plus a `--keep-scene-dir` debug flag.
-- `data/batch_align_mano_fp.py`: **`--n-workers N`** for object-level parallelism via `multiprocessing.Pool(spawn)`. DexYCB Step 4 went from sequentially-extrapolated ~12-15 h to ~5 h on a 16-core/32-thread machine.
-- `Baseline1/`: **Human Retarget DP** baseline (route A on DexYCB subj 07-10), with v2 SAM3D↔YCB-CAD canonical alignment via ICP (`compute_sam3d_align.py` + `--align-mode sam3d`).
-- `s2r/PLAN.md`: sim-to-real implementation plan (Dexmate Vega + SharpaWave-as-virtual-2-finger).
-
----
 
 ## Phase 1A Outputs — `training_fp/` vs `human_prior_fp/`, when to use which
 
@@ -364,16 +338,22 @@ sim45 sim/run_grasp_sim.py --hdf5 output/grasps_random/mug_grasp.hdf5
 ## Repository Structure
 
 ```
-Affordance2Grasp/
-├── model/              # PointNet++ model + training (python -m model.train)
-├── sim/                # Isaac Sim execution + cuRobo planning
-├── inference/          # Deploy: predict affordance → plan → execute
-├── tools/              # Data processing, frame extraction, contact alignment
-├── Baseline2/          # Robot DP (Sim) baseline implementation
-├── data_hub/
-│   ├── meshes/         # Object meshes (v1: OakInk; SAM3DMesh: egodex/ycb/oakink)
-│   └── human_prior/    # Aggregated contact prior HDF5 files
-└── output/             # Grasp candidates, robot GT labels, model checkpoints
+V2AP/
+├── model/              # PointNet++ affordance model + PDM + Diffusion (training & eval)
+├── inference/          # Deploy: predict affordance → grasp pose → execute
+├── evaluation/         # Isaac Sim evaluation framework (policies, episode tracking)
+├── sim/                # Isaac Sim scripts + cuRobo motion planning configs
+├── data/               # Data pipeline: depth, hand tracking, contact alignment
+├── tools/              # Candidate generation, visualization, USD conversion
+├── scripts/            # Batch runners + external dependency install scripts
+├── third_party/        # Submodules: mega-sam (Apache-2.0), ml-depth-pro (Apple)
+├── patches/            # Patches for external tools (e.g. haptic-intrinsics-fix)
+├── docs/               # Setup guides, pipeline instructions
+├── examples/           # Demo objects and quick-start data
+├── config.py           # Global path configuration (reads from .env)
+├── setup_weights.py    # Download model weights from HuggingFace
+├── LICENSE             # MIT (applies to V2AP code only)
+└── THIRD_PARTY.md      # Third-party dependency licenses
 ```
 
 ---
@@ -534,7 +514,7 @@ cmake --version                     # confirm cmake present (needed for FP build
 
 ```bash
 # --recursive pulls HaWoR, MegaSAM, and HaPTIC code automatically
-git clone --recursive https://github.com/stzabl-png/UCB_Project.git Affordance2Grasp
+git clone --recursive https://github.com/stzabl-png/V2AP.git V2AP
 cd Affordance2Grasp
 ```
 
