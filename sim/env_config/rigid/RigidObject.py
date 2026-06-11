@@ -168,13 +168,22 @@ class RigidObject:
                 omni.kit.commands.execute('BindMaterialCommand',
                 prim_path=prim.GetPath(), material_path=self.material_prim_path)
                 
-    def set_contact_offset(self,contact_offset:float=0.01):
-        self.collsionapi=PhysxSchema.PhysxCollisionAPI.Apply(self.rigid.prim)
+    def set_contact_offset(self, contact_offset: float = 0.01):
+        try:
+            target_prim = self.rigid.prim
+        except Exception:
+            target_prim = self.rigid_xform.prim
+        self.collsionapi = PhysxSchema.PhysxCollisionAPI.Apply(target_prim)
         self.collsionapi.GetContactOffsetAttr().Set(contact_offset)
 
-    def set_rest_offset(self,rest_offset:float=0.000):
-        self.collsionapi=PhysxSchema.PhysxCollisionAPI.Apply(self.rigid.prim)
+    def set_rest_offset(self, rest_offset: float = 0.000):
+        try:
+            target_prim = self.rigid.prim
+        except Exception:
+            target_prim = self.rigid_xform.prim
+        self.collsionapi = PhysxSchema.PhysxCollisionAPI.Apply(target_prim)
         self.collsionapi.GetRestOffsetAttr().Set(rest_offset)
+
     
     def set_mass(self,mass=0.02):
         physicsUtils.add_mass(self.world.stage, self.rigid_prim_path, mass)
@@ -182,10 +191,17 @@ class RigidObject:
     def set_obj_pose(self, pos, ori=None):
         if ori is not None:
             ori = euler_angles_to_quat(ori, degrees=True)
-        self.rigid.set_world_pose(pos, ori)
+        try:
+            self.rigid.set_world_pose(pos, ori)
+        except Exception:
+            # Fallback: write directly to USD stage via XFormPrim
+            # (works for session-generated USDs that aren't registered
+            #  in the physics tensor backend)
+            self.rigid_xform.set_world_pose(pos, ori)
 
     def get_obj_pos(self):
-        return self.rigid.get_world_pose()
-
-      
-    
+        try:
+            return self.rigid.get_world_pose()
+        except Exception:
+            # Fallback: read from USD stage (physics updates this too)
+            return self.rigid_xform.get_world_pose()

@@ -1,0 +1,21 @@
+# Retarget: mesh-frame grasp candidates → robot base-frame EE target
+# One-time calibration offset (T_ee_pinch) loaded from calib/ee_retarget.yaml
+T_ee_pinch:
+  # SharpaWave right-hand thumb–index midpoint relative to Vega R_ee flange.
+  # dx/dy/dz in meters; rotation assumed identity for v0 (refine if needed).
+  # CALIBRATE ON HARDWARE: use pose_tuner FK vs measured pinch center.
+  - [1.0, 0.0, 0.0, 0.00]   # dx: palm fore-aft
+  - [0.0, 1.0, 0.0, 0.00]   # dy: lateral
+  - [0.0, 0.0, 1.0, 0.15]   # dz: flange-to-fingertip (~15 cm, measure!)
+  - [0.0, 0.0, 0.0, 1.0]
+
+calibrated_object: "PLACEHOLDER — calibrate on hardware"
+calibrated_at: "2026-06-03"
+notes: >
+  Placeholder values.  To calibrate:
+  1) python demo/phase1/pose_tuner.py --object-name calib
+  2) Position thumb+index pinch at a known point (e.g. table corner)
+  3) Record FK T_base_ee from pose_tuner '>' save
+  4) Measure pinch center in base frame (ruler / AprilTag)
+  5) T_ee_pinch = inv(T_base_ee) @ T_base_pinch
+  6) Paste result here, re-run run_auto_grasp.py --dry-run to verify

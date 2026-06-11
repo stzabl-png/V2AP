@@ -60,7 +60,7 @@ def build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Deprecated alias for --trials-per-obj-yaw.",
     )
-    p.add_argument("--policy", choices=("a2g_pdm",), default="a2g_pdm")
+    p.add_argument("--policy", choices=("a2g_pdm", "graspnet_baseline"), default="a2g_pdm")
     p.add_argument("--selection", choices=("top", "index", "sample"), default="sample")
     p.add_argument("--candidate-index", type=int, default=0)
     add_eval_seed_args(p)
@@ -344,12 +344,14 @@ def _make_isaac_worker_env(
     env["STRICT_GPU_MASK"] = "1"
     env["OMNICLIENT_HUB_CACHE_DIR"] = str(hub_dir)
     env["OMNI_CACHE_DIR"] = str(omni_cache)
-    env["XDG_CACHE_HOME"] = str(worker_root / "xdg_cache")
+    # Use real XDG_CACHE_HOME so curobo .so files are reused (not recompiled per worker).
+    # env["XDG_CACHE_HOME"] = str(worker_root / "xdg_cache")
     env["TMPDIR"] = str(worker_tmp)
     env["TEMP"] = str(worker_tmp)
     env["TMP"] = str(worker_tmp)
     env["OMNI_USER"] = f"eval_g{gpu_id}_{chunk_id}"
-    env["HOME"] = str(worker_home)
+    # Use real HOME so ~/.cache/torch_extensions is shared across workers.
+    # env["HOME"] = str(worker_home)
     return env
 
 

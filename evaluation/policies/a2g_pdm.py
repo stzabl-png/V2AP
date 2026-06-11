@@ -224,9 +224,10 @@ def select_candidate(
     if mode == "top":
         return candidates[0]
     if mode == "index":
-        if index < 0 or index >= len(candidates):
-            raise IndexError(f"candidate index {index} out of range for {len(candidates)} candidates")
-        return candidates[index]
+        # Wrap around with modulo so trial_N cycles through available candidates
+        # e.g. 5 candidates + 10 trials: trial_5 → candidate_0, trial_6 → candidate_1…
+        wrapped = index % len(candidates)
+        return candidates[wrapped]
     if mode == "sample":
         scores = np.asarray([max(float(c.get("score", 0.0)), 0.0) for c in candidates], dtype=np.float64)
         if np.all(scores <= 0):

@@ -154,6 +154,9 @@ def _base_result(success=False, failure_stage: str | None = None) -> ExecutionRe
 
 def init_curobo(scene: SimEvaluationContext):
     import os as _os
+    import subprocess
+    import threading
+    import time as _time
     from curobo.wrap.reacher.motion_gen import MotionGen, MotionGenConfig
 
     extra = "/home/vision/isaacsim/kit/python/bin:/usr/local/cuda/bin"
@@ -184,11 +187,65 @@ def init_curobo(scene: SimEvaluationContext):
     load_kwargs = {"interpolation_dt": 0.02}
     if mesh_verts is not None:
         load_kwargs["collision_cache"] = {"obb": 4, "mesh": 4}
+
+    cprint("   [curobo-init] loading MotionGenConfig...", "yellow"); _t0 = _time.time()
     mg_config = MotionGenConfig.load_from_robot_config("franka.yml", world_config, **load_kwargs)
+    cprint(f"   [curobo-init] MotionGenConfig loaded in {_time.time()-_t0:.1f}s", "yellow")
+
+    cprint("   [curobo-init] building MotionGen...", "yellow"); _t1 = _time.time()
     mg = MotionGen(mg_config)
-    cprint("   cuRobo warmup...", "yellow")
-    mg.warmup()
-    cprint("   cuRobo ready", "green")
+    cprint(f"   [curobo-init] MotionGen built in {_time.time()-_t1:.1f}s", "yellow")
+
+    # --- warmup with heartbeat every 10s and timeout ---
+    WARMUP_TIMEOUT_S = int(_os.environ.get("CUROBO_WARMUP_TIMEOUT", "1200"))  # 20 min default
+    cprint(f"   [curobo-init] warmup() starting (timeout={WARMUP_TIMEOUT_S}s)...", "yellow")
+    _warmup_done = threading.Event()
+    _warmup_exc: list[Exception] = []
+
+    def _gpu_mem() -> str:
+        try:
+            out = subprocess.check_output(
+                ["nvidia-smi", "--query-gpu=memory.used,memory.free,utilization.gpu",
+                 "--format=csv,noheader,nounits"], timeout=3, text=True
+            ).strip().split("\n")[0]
+            used, free, util = out.split(",")
+            return f"GPU mem={used.strip()}MiB free={free.strip()}MiB util={util.strip()}%"
+        except Exception:
+            return ""
+
+    def _run_warmup():
+        try:
+            mg.warmup()
+        except Exception as exc:
+            _warmup_exc.append(exc)
+        finally:
+            _warmup_done.set()
+
+    def _heartbeat():
+        t0 = _time.time()
+        tick = 0
+        while not _warmup_done.is_set():
+            _warmup_done.wait(timeout=10)
+            if not _warmup_done.is_set():
+                tick += 1
+                elapsed = int(_time.time() - t0)
+                gpu_str = _gpu_mem() if tick % 3 == 0 else ""  # sample GPU every 30s
+                print(f"   [warmup] {elapsed}s elapsed {gpu_str}", flush=True)
+                if elapsed >= WARMUP_TIMEOUT_S:
+                    cprint(f"   [warmup] TIMEOUT after {elapsed}s — killing process", "red")
+                    _os.kill(_os.getpid(), 9)  # hard kill
+
+    wt = threading.Thread(target=_run_warmup, daemon=True)
+    hb = threading.Thread(target=_heartbeat, daemon=True)
+    hb.start()
+    wt.start()
+    wt.join()  # block until warmup finishes or timeout kills us
+    _warmup_done.set()  # stop heartbeat
+
+    if _warmup_exc:
+        raise RuntimeError(f"cuRobo warmup failed: {_warmup_exc[0]}") from _warmup_exc[0]
+
+    cprint(f"   [curobo-init] cuRobo ready ✅  (total init {_time.time()-_t0:.1f}s)", "green")
     return mg
 
 

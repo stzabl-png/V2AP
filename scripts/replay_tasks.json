@@ -1,0 +1,1069 @@
+[
+  {
+    "obj_id": "A01001",
+    "episode_id": "A01001_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01001/A01001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.016812575060626847,
+      0.01167052057220215
+    ]
+  },
+  {
+    "obj_id": "A01002",
+    "episode_id": "A01002_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01002/A01002_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.018279782934174316,
+      0.010666524415993271
+    ]
+  },
+  {
+    "obj_id": "A01005",
+    "episode_id": "A01005_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01005/A01005_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.0027304051592506803,
+      0.02094655017481281
+    ]
+  },
+  {
+    "obj_id": "A01006",
+    "episode_id": "A01006_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01006/A01006_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.03125505269442694,
+      -0.013183235447127496
+    ]
+  },
+  {
+    "obj_id": "A01008",
+    "episode_id": "A01008_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01008/A01008_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.02163358408724103,
+      0.04231649024209319
+    ]
+  },
+  {
+    "obj_id": "A01009",
+    "episode_id": "A01009_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01009/A01009_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.042027007174490864,
+      0.030871983750398263
+    ]
+  },
+  {
+    "obj_id": "A01010",
+    "episode_id": "A01010_a2g_pdm_yaw000_t002",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01010/A01010_yaw000_pool_grasp.hdf5",
+    "candidate_index": 2,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.006948262163810039,
+      -0.030413877048078877
+    ]
+  },
+  {
+    "obj_id": "A01023",
+    "episode_id": "A01023_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01023/A01023_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.03488808146128848,
+      -0.03951329979923749
+    ]
+  },
+  {
+    "obj_id": "A01026",
+    "episode_id": "A01026_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01026/A01026_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.021524877632140005,
+      -0.022419806100391005
+    ]
+  },
+  {
+    "obj_id": "A01027",
+    "episode_id": "A01027_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01027/A01027_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.03513739970139689,
+      -0.0035134976681091765
+    ]
+  },
+  {
+    "obj_id": "A02011",
+    "episode_id": "A02011_a2g_pdm_yaw090_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02011/A02011_yaw090_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.039209304065440445,
+      0.04657497417037973
+    ]
+  },
+  {
+    "obj_id": "A02012",
+    "episode_id": "A02012_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02012/A02012_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.02543210555005558,
+      0.04190640355078168
+    ]
+  },
+  {
+    "obj_id": "A02014",
+    "episode_id": "A02014_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02014/A02014_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.026760130540016386,
+      0.023204096982005068
+    ]
+  },
+  {
+    "obj_id": "A02015",
+    "episode_id": "A02015_a2g_pdm_yaw000_t002",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02015/A02015_yaw000_pool_grasp.hdf5",
+    "candidate_index": 2,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.002307912002398528,
+      0.021266768519521723
+    ]
+  },
+  {
+    "obj_id": "A02018",
+    "episode_id": "A02018_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02018/A02018_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.04521826901701135,
+      -0.004348348164289764
+    ]
+  },
+  {
+    "obj_id": "A02021",
+    "episode_id": "A02021_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02021/A02021_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.017551039081841725,
+      0.02986049499062489
+    ]
+  },
+  {
+    "obj_id": "A02028",
+    "episode_id": "A02028_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02028/A02028_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.04553579154373873,
+      0.04933732696469231
+    ]
+  },
+  {
+    "obj_id": "A02029",
+    "episode_id": "A02029_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02029/A02029_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.02661846381884705,
+      0.02567182122730846
+    ]
+  },
+  {
+    "obj_id": "A02030",
+    "episode_id": "A02030_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02030/A02030_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.004850341555265467,
+      -0.024990386924785682
+    ]
+  },
+  {
+    "obj_id": "A02031",
+    "episode_id": "A02031_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02031/A02031_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.04596335238865794,
+      -0.0027064597066416146
+    ]
+  },
+  {
+    "obj_id": "A15015",
+    "episode_id": "A15015_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A15015/A15015_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.048919142498574035,
+      -0.034335983918690506
+    ]
+  },
+  {
+    "obj_id": "A15027",
+    "episode_id": "A15027_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A15027/A15027_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.006858732671949107,
+      -0.010592452043155044
+    ]
+  },
+  {
+    "obj_id": "A16012",
+    "episode_id": "A16012_a2g_pdm_yaw000_t003",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A16012/A16012_yaw000_pool_grasp.hdf5",
+    "candidate_index": 3,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.03363574542780487,
+      0.03226507439713981
+    ]
+  },
+  {
+    "obj_id": "A16013",
+    "episode_id": "A16013_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A16013/A16013_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.012178920931866455,
+      -0.02743651424937853
+    ]
+  },
+  {
+    "obj_id": "A16026",
+    "episode_id": "A16026_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A16026/A16026_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.027482567925476865,
+      0.03228636782191506
+    ]
+  },
+  {
+    "obj_id": "C03001",
+    "episode_id": "C03001_a2g_pdm_yaw000_t005",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C03001/C03001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 5,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.03510586111445947,
+      0.040649886347848024
+    ]
+  },
+  {
+    "obj_id": "C14001",
+    "episode_id": "C14001_a2g_pdm_yaw000_t002",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C14001/C14001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 2,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.010791096856416368,
+      -0.02140378249098698
+    ]
+  },
+  {
+    "obj_id": "C15001",
+    "episode_id": "C15001_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C15001/C15001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.000628091173029921,
+      0.045474174124178215
+    ]
+  },
+  {
+    "obj_id": "C28001",
+    "episode_id": "C28001_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C28001/C28001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.007880412651165347,
+      -0.02724129144563552
+    ]
+  },
+  {
+    "obj_id": "C40001",
+    "episode_id": "C40001_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C40001/C40001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.004540985980198198,
+      -0.04535790721577413
+    ]
+  },
+  {
+    "obj_id": "C50001",
+    "episode_id": "C50001_a2g_pdm_yaw000_t003",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C50001/C50001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 3,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.030295499480557733,
+      -0.023263462803395932
+    ]
+  },
+  {
+    "obj_id": "C52001",
+    "episode_id": "C52001_a2g_pdm_yaw000_t002",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C52001/C52001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 2,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.008677212973070725,
+      -0.012464091795846996
+    ]
+  },
+  {
+    "obj_id": "C90001",
+    "episode_id": "C90001_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C90001/C90001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.014432724138171649,
+      -0.03287916625583795
+    ]
+  },
+  {
+    "obj_id": "O01000",
+    "episode_id": "O01000_a2g_pdm_yaw000_t004",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O01000/O01000_yaw000_pool_grasp.hdf5",
+    "candidate_index": 4,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.02379627990854888,
+      0.03595692623763047
+    ]
+  },
+  {
+    "obj_id": "O02001",
+    "episode_id": "O02001_a2g_pdm_yaw000_t007",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O02001/O02001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 7,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.036356080158334504,
+      0.03830480075370965
+    ]
+  },
+  {
+    "obj_id": "O03001",
+    "episode_id": "O03001_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O03001/O03001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.01290975474460132,
+      -0.018612755181808403
+    ]
+  },
+  {
+    "obj_id": "O03002",
+    "episode_id": "O03002_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O03002/O03002_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.043037471999265664,
+      0.024693962762268956
+    ]
+  },
+  {
+    "obj_id": "O03003",
+    "episode_id": "O03003_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O03003/O03003_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.01047419804909424,
+      -0.036861856242250024
+    ]
+  },
+  {
+    "obj_id": "O21001",
+    "episode_id": "O21001_a2g_pdm_yaw000_t006",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O21001/O21001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 6,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.026850342655547824,
+      0.03916980353939527
+    ]
+  },
+  {
+    "obj_id": "O36001",
+    "episode_id": "O36001_a2g_pdm_yaw000_t005",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O36001/O36001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 5,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.029116092493050874,
+      -0.03306648191299767
+    ]
+  },
+  {
+    "obj_id": "O36002",
+    "episode_id": "O36002_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O36002/O36002_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.0051782737427837205,
+      0.04083103848702643
+    ]
+  },
+  {
+    "obj_id": "O50001",
+    "episode_id": "O50001_a2g_pdm_yaw000_t002",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O50001/O50001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 2,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.005242262850572686,
+      0.048445554798892385
+    ]
+  },
+  {
+    "obj_id": "S10005",
+    "episode_id": "S10005_a2g_pdm_yaw000_t003",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10005/S10005_yaw000_pool_grasp.hdf5",
+    "candidate_index": 3,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.0006616420356954089,
+      0.020261600092535553
+    ]
+  },
+  {
+    "obj_id": "S10008",
+    "episode_id": "S10008_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10008/S10008_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.01801194780632827,
+      0.019349364291638194
+    ]
+  },
+  {
+    "obj_id": "S10010",
+    "episode_id": "S10010_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10010/S10010_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.020091387782714,
+      0.012769111097112804
+    ]
+  },
+  {
+    "obj_id": "S10011",
+    "episode_id": "S10011_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10011/S10011_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.04785287024650345,
+      -0.020122849992307158
+    ]
+  },
+  {
+    "obj_id": "S10013",
+    "episode_id": "S10013_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10013/S10013_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.024489456597066347,
+      -0.028850043719816965
+    ]
+  },
+  {
+    "obj_id": "S10014",
+    "episode_id": "S10014_a2g_pdm_yaw000_t002",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10014/S10014_yaw000_pool_grasp.hdf5",
+    "candidate_index": 2,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.016767534328709602,
+      -0.048925482997470196
+    ]
+  },
+  {
+    "obj_id": "S10017",
+    "episode_id": "S10017_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10017/S10017_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.03349528726727345,
+      0.0015644017553326367
+    ]
+  },
+  {
+    "obj_id": "S10018",
+    "episode_id": "S10018_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10018/S10018_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.013302441472020046,
+      0.010906565671441791
+    ]
+  },
+  {
+    "obj_id": "S10020",
+    "episode_id": "S10020_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10020/S10020_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.006352231816777222,
+      -0.041176906837957675
+    ]
+  },
+  {
+    "obj_id": "S10022",
+    "episode_id": "S10022_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10022/S10022_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.0012243522734551107,
+      -0.03359282961021096
+    ]
+  },
+  {
+    "obj_id": "S15004",
+    "episode_id": "S15004_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S15004/S15004_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.02345698614200359,
+      -0.03764295143508725
+    ]
+  },
+  {
+    "obj_id": "S16001",
+    "episode_id": "S16001_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16001/S16001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.0015924548217073758,
+      -0.014527797196478696
+    ]
+  },
+  {
+    "obj_id": "S16002",
+    "episode_id": "S16002_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16002/S16002_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.03271703502173898,
+      0.03659306726631106
+    ]
+  },
+  {
+    "obj_id": "S16003",
+    "episode_id": "S16003_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16003/S16003_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.04054629210332666,
+      -0.030924459656333492
+    ]
+  },
+  {
+    "obj_id": "S16005",
+    "episode_id": "S16005_a2g_pdm_yaw000_t006",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16005/S16005_yaw000_pool_grasp.hdf5",
+    "candidate_index": 6,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.038879360445441706,
+      0.032341101940180125
+    ]
+  },
+  {
+    "obj_id": "S20001",
+    "episode_id": "S20001_a2g_pdm_yaw000_t004",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S20001/S20001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 4,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.020543764168656026,
+      -0.01043032506697543
+    ]
+  },
+  {
+    "obj_id": "S20021",
+    "episode_id": "S20021_a2g_pdm_yaw180_t002",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S20021/S20021_yaw180_pool_grasp.hdf5",
+    "candidate_index": 2,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.02085127114445301,
+      -0.01568962019760487
+    ]
+  },
+  {
+    "obj_id": "S20022",
+    "episode_id": "S20022_a2g_pdm_yaw000_t008",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S20022/S20022_yaw000_pool_grasp.hdf5",
+    "candidate_index": 8,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.03644520599916904,
+      0.021060121523931635
+    ]
+  },
+  {
+    "obj_id": "Y03006",
+    "episode_id": "Y03006_a2g_pdm_yaw000_t002",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y03006/Y03006_yaw000_pool_grasp.hdf5",
+    "candidate_index": 2,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.02375805879768682,
+      0.04468938561206845
+    ]
+  },
+  {
+    "obj_id": "Y03021",
+    "episode_id": "Y03021_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y03021/Y03021_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.0272361818416339,
+      0.00404796916057195
+    ]
+  },
+  {
+    "obj_id": "Y27035",
+    "episode_id": "Y27035_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y27035/Y27035_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.029534313904984913,
+      0.026481367421744464
+    ]
+  },
+  {
+    "obj_id": "Y29040",
+    "episode_id": "Y29040_a2g_pdm_yaw000_t007",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y29040/Y29040_yaw000_pool_grasp.hdf5",
+    "candidate_index": 7,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.026896858091366906,
+      -0.015293916043458776
+    ]
+  },
+  {
+    "obj_id": "Y35037",
+    "episode_id": "Y35037_a2g_pdm_yaw000_t002",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y35037/Y35037_yaw000_pool_grasp.hdf5",
+    "candidate_index": 2,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.015305791777326792,
+      0.042581146324111335
+    ]
+  },
+  {
+    "obj_id": "unseen_000",
+    "episode_id": "unseen_000_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_000/unseen_000_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.03529747312156396,
+      0.01750859155849266
+    ]
+  },
+  {
+    "obj_id": "unseen_001",
+    "episode_id": "unseen_001_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_001/unseen_001_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.03706730593389948,
+      -0.03534676231157777
+    ]
+  },
+  {
+    "obj_id": "unseen_002",
+    "episode_id": "unseen_002_a2g_pdm_yaw090_t009",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_002/unseen_002_yaw090_pool_grasp.hdf5",
+    "candidate_index": 9,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.0072045847039688415,
+      -0.004635653310437825
+    ]
+  },
+  {
+    "obj_id": "unseen_004",
+    "episode_id": "unseen_004_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_004/unseen_004_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.036396696882853144,
+      0.025057502812554783
+    ]
+  },
+  {
+    "obj_id": "unseen_005",
+    "episode_id": "unseen_005_a2g_pdm_yaw000_t005",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_005/unseen_005_yaw000_pool_grasp.hdf5",
+    "candidate_index": 5,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.0038015693975131243,
+      -0.04114735638955026
+    ]
+  },
+  {
+    "obj_id": "unseen_006",
+    "episode_id": "unseen_006_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_006/unseen_006_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.001155454918970969,
+      0.029169446069710767
+    ]
+  },
+  {
+    "obj_id": "unseen_007",
+    "episode_id": "unseen_007_a2g_pdm_yaw000_t002",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_007/unseen_007_yaw000_pool_grasp.hdf5",
+    "candidate_index": 2,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.04275907316515565,
+      -0.031907675355066376
+    ]
+  },
+  {
+    "obj_id": "unseen_008",
+    "episode_id": "unseen_008_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_008/unseen_008_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.017766911235713417,
+      -0.04773749944135744
+    ]
+  },
+  {
+    "obj_id": "unseen_009",
+    "episode_id": "unseen_009_a2g_pdm_yaw090_t007",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_009/unseen_009_yaw090_pool_grasp.hdf5",
+    "candidate_index": 7,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.04126958993460727,
+      -0.0043466825493799766
+    ]
+  },
+  {
+    "obj_id": "unseen_010",
+    "episode_id": "unseen_010_a2g_pdm_yaw000_t007",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_010/unseen_010_yaw000_pool_grasp.hdf5",
+    "candidate_index": 7,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.03345661207915605,
+      0.016092922085352096
+    ]
+  },
+  {
+    "obj_id": "unseen_011",
+    "episode_id": "unseen_011_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_011/unseen_011_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.018741615189376226,
+      -0.044547077880444985
+    ]
+  },
+  {
+    "obj_id": "unseen_014",
+    "episode_id": "unseen_014_a2g_pdm_yaw000_t008",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_014/unseen_014_yaw000_pool_grasp.hdf5",
+    "candidate_index": 8,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.040193366938104824,
+      0.014370099788376958
+    ]
+  },
+  {
+    "obj_id": "unseen_015",
+    "episode_id": "unseen_015_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_015/unseen_015_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.024949723330436963,
+      -0.03575118233631498
+    ]
+  },
+  {
+    "obj_id": "unseen_016",
+    "episode_id": "unseen_016_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_016/unseen_016_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.039249013566793146,
+      -0.016822759527859964
+    ]
+  },
+  {
+    "obj_id": "unseen_019",
+    "episode_id": "unseen_019_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_019/unseen_019_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.021582929349968444,
+      -0.024830734345097805
+    ]
+  },
+  {
+    "obj_id": "unseen_020",
+    "episode_id": "unseen_020_a2g_pdm_yaw090_t009",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_020/unseen_020_yaw090_pool_grasp.hdf5",
+    "candidate_index": 9,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.008490897454142818,
+      -0.012430369691216817
+    ]
+  },
+  {
+    "obj_id": "unseen_022",
+    "episode_id": "unseen_022_a2g_pdm_yaw000_t002",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_022/unseen_022_yaw000_pool_grasp.hdf5",
+    "candidate_index": 2,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.021780824254916533,
+      0.03390502674015708
+    ]
+  },
+  {
+    "obj_id": "unseen_024",
+    "episode_id": "unseen_024_a2g_pdm_yaw000_t005",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_024/unseen_024_yaw000_pool_grasp.hdf5",
+    "candidate_index": 5,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.011646462491829934,
+      -0.04870326491587726
+    ]
+  },
+  {
+    "obj_id": "unseen_025",
+    "episode_id": "unseen_025_a2g_pdm_yaw000_t009",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_025/unseen_025_yaw000_pool_grasp.hdf5",
+    "candidate_index": 9,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.005078611690350822,
+      -0.037565823384289314
+    ]
+  },
+  {
+    "obj_id": "unseen_026",
+    "episode_id": "unseen_026_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_026/unseen_026_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.007597048095903301,
+      -0.04319090211988611
+    ]
+  },
+  {
+    "obj_id": "unseen_027",
+    "episode_id": "unseen_027_a2g_pdm_yaw000_t005",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_027/unseen_027_yaw000_pool_grasp.hdf5",
+    "candidate_index": 5,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.04278385604447178,
+      0.02929752883732427
+    ]
+  },
+  {
+    "obj_id": "unseen_028",
+    "episode_id": "unseen_028_a2g_pdm_yaw090_t007",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_028/unseen_028_yaw090_pool_grasp.hdf5",
+    "candidate_index": 7,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.004960429844789761,
+      0.0029715457420582334
+    ]
+  },
+  {
+    "obj_id": "ycb_dex_03",
+    "episode_id": "ycb_dex_03_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_03/ycb_dex_03_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.00802137342209662,
+      -0.017702349526294348
+    ]
+  },
+  {
+    "obj_id": "ycb_dex_04",
+    "episode_id": "ycb_dex_04_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_04/ycb_dex_04_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.014188971596614947,
+      0.0008610878216491202
+    ]
+  },
+  {
+    "obj_id": "ycb_dex_05",
+    "episode_id": "ycb_dex_05_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_05/ycb_dex_05_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.0063219739147863385,
+      0.02165170720077572
+    ]
+  },
+  {
+    "obj_id": "ycb_dex_07",
+    "episode_id": "ycb_dex_07_a2g_pdm_yaw090_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_07/ycb_dex_07_yaw090_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.03589234373187297,
+      0.02728322242145359
+    ]
+  },
+  {
+    "obj_id": "ycb_dex_08",
+    "episode_id": "ycb_dex_08_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_08/ycb_dex_08_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.03440157798515268,
+      0.012451802499557255
+    ]
+  },
+  {
+    "obj_id": "ycb_dex_12",
+    "episode_id": "ycb_dex_12_a2g_pdm_yaw000_t006",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_12/ycb_dex_12_yaw000_pool_grasp.hdf5",
+    "candidate_index": 6,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.023248878102231987,
+      0.016580603383945278
+    ]
+  },
+  {
+    "obj_id": "ycb_dex_14",
+    "episode_id": "ycb_dex_14_a2g_pdm_yaw000_t006",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_14/ycb_dex_14_yaw000_pool_grasp.hdf5",
+    "candidate_index": 6,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.04953442802718139,
+      -0.02866884497421628
+    ]
+  },
+  {
+    "obj_id": "ycb_dex_15",
+    "episode_id": "ycb_dex_15_a2g_pdm_yaw000_t001",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_15/ycb_dex_15_yaw000_pool_grasp.hdf5",
+    "candidate_index": 1,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      0.0377622910702505,
+      -0.030533364441836575
+    ]
+  },
+  {
+    "obj_id": "ycb_dex_17",
+    "episode_id": "ycb_dex_17_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_17/ycb_dex_17_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.02101255886971254,
+      0.011197927093135593
+    ]
+  },
+  {
+    "obj_id": "ycb_dex_18",
+    "episode_id": "ycb_dex_18_a2g_pdm_yaw000_t000",
+    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_18/ycb_dex_18_yaw000_pool_grasp.hdf5",
+    "candidate_index": 0,
+    "z_yaw_deg": 0,
+    "obj_xy_offset": [
+      -0.01557770722834504,
+      -0.0364504016216493
+    ]
+  }
+]

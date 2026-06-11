@@ -81,6 +81,10 @@ def build_parser() -> argparse.ArgumentParser:
     add_random_obj_xy_args(parser)
     parser.add_argument("--z-yaw-deg", type=float, default=0.0)
     parser.add_argument("--headless", action="store_true")
+    parser.add_argument("--keep-open", action="store_true",
+                        help="Keep sim window open after grasp for screen recording. Ctrl+C to exit.")
+    parser.add_argument("--wait-before-grasp", action="store_true",
+                        help="Pause after scene is ready (object visible), wait for Enter, then execute grasp.")
     parser.add_argument(
         "--result-dir",
         default=str(PROJ / "output" / "evaluation" / "single"),
@@ -508,6 +512,18 @@ def main() -> None:
         if policy_output.kind != "open_loop_grasp" or policy_output.command is None:
             raise RuntimeError(f"unsupported policy output for first runner: {policy_output.kind}")
 
+        if args.wait_before_grasp and not headless:
+            output.important("[eval] scene ready — press Enter to execute grasp...")
+            # Keep rendering while waiting
+            import select
+            sys.stdin = open('/dev/stdin')
+            while True:
+                scene.world.step(render=True)
+                if select.select([sys.stdin], [], [], 0.0)[0]:
+                    sys.stdin.readline()
+                    break
+            output.important("[eval] executing grasp...")
+
         execution = execute_open_loop_grasp(scene, policy_output.command)
         plan = execution.planning
         output.important(
@@ -555,6 +571,14 @@ def main() -> None:
             f" z_delta={execution.z_delta_m}"
             f" failure_stage={execution.failure_stage}"
         )
+
+        if args.keep_open and simulation_app is not None and not headless:
+            output.important("[eval] --keep-open: window stays open. Press Ctrl+C to exit.")
+            try:
+                while simulation_app.is_running():
+                    scene.world.step(render=True)
+            except KeyboardInterrupt:
+                output.important("[eval] Ctrl+C received, closing.")
     finally:
         if recorder is not None and recorder._active:
             recorder.stop()

@@ -123,12 +123,13 @@ def _find_obj_usd_path(obj_id: str) -> str | None:
     """Search output/obj_usd then sim/assets for {obj_id}.usd."""
     a2g_root = os.path.dirname(SIM_DIR)
     obj_usd_root = os.path.join(a2g_root, "output", "obj_usd")
-    datasets_order = ["oakink", "ycb", "arctic", "dexycb", "egocentric", "ho3d_v3"]
+    datasets_order = ["session", "oakink", "ycb", "arctic", "dexycb", "egocentric", "ho3d_v3"]
     usd_search_paths = (
         [os.path.join(obj_usd_root, ds, f"{obj_id}.usd") for ds in datasets_order]
         + [os.path.join(SIM_DIR, "assets", f"{obj_id}.usd")]
     )
     return next((p for p in usd_search_paths if os.path.exists(p)), None)
+
 
 
 def sample_sim_z_yaw_deg(obj_id: str, round_idx: int | None, seed: int | None) -> float:

@@ -16,6 +16,7 @@ from evaluation.eval_single import (
     maybe_generate_candidate,
 )
 from evaluation.policies.a2g_pdm import A2GPDMPolicy, A2GPDMPolicyConfig
+from evaluation.policies.graspnet_baseline import GraspNetBaselinePolicy, GraspNetBaselinePolicyConfig
 from evaluation.randomness import DEFAULT_EVAL_SEED, record_trials_rng, resolve_policy_seed
 from evaluation.placement import resolve_obj_xy_offset
 from evaluation.yaw import resolve_z_yaw_deg
@@ -116,17 +117,28 @@ def make_solution(
         sim_z_yaw_deg=float(z_yaw_deg),
         eval_seed=int(eval_seed),
     )
-    if policy != "a2g_pdm":
+    if policy == "graspnet_baseline":
+        seed = resolve_policy_seed(eval_seed=eval_seed, policy_seed=policy_seed, trial=trial)
+        output = GraspNetBaselinePolicy(
+            GraspNetBaselinePolicyConfig(
+                candidate_hdf5=candidate_hdf5,
+                selection=selection,
+                candidate_index=candidate_index,
+                seed=seed,
+            )
+        ).predict(None)
+    elif policy == "a2g_pdm":
+        seed = resolve_policy_seed(eval_seed=eval_seed, policy_seed=policy_seed, trial=trial)
+        output = A2GPDMPolicy(
+            A2GPDMPolicyConfig(
+                candidate_hdf5=candidate_hdf5,
+                selection=selection,
+                candidate_index=candidate_index,
+                seed=seed,
+            )
+        ).predict(None)
+    else:
         raise ValueError(f"unsupported policy: {policy}")
-    seed = resolve_policy_seed(eval_seed=eval_seed, policy_seed=policy_seed, trial=trial)
-    output = A2GPDMPolicy(
-        A2GPDMPolicyConfig(
-            candidate_hdf5=candidate_hdf5,
-            selection=selection,
-            candidate_index=candidate_index,
-            seed=seed,
-        )
-    ).predict(None)
     return {
         "version": 1,
         "solution_id": episode_id,
