@@ -99,3 +99,22 @@ Baseline1/dp3_runs/
 
 # NVIDIA profiling artifacts
 NvStreamer-*.etli
+
+# Third-party model files (must never be committed)
+MANO_RIGHT.pkl
+MANO_LEFT.pkl
+MANO_UV_right.obj
+MANO_UV_left.obj
+*.ckpt
+hawor.ckpt
+infiller.pt
+checkpoint-rs.tar
+
+# Third-party source trees (installed via scripts, not vendored)
+third_party/hawor/
+third_party/haptic/
+third_party/FoundationPose/
+third_party/dust3r/
+third_party/mast3r/
+third_party/graspnet-baseline/
+BundleSDF/

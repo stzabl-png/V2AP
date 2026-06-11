@@ -1,12 +1,6 @@
-[submodule "third_party/hawor"]
-	path = third_party/hawor
-	url = https://github.com/ThunderVVV/HaWoR.git
 [submodule "mega-sam"]
 	path = mega-sam
 	url = https://github.com/mega-sam/mega-sam.git
-[submodule "third_party/haptic"]
-	path = third_party/haptic
-	url = https://github.com/judyye/haptic.git
 [submodule "third_party/ml-depth-pro"]
 	path = third_party/ml-depth-pro
 	url = https://github.com/apple/ml-depth-pro.git
