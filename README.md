@@ -136,20 +136,14 @@ Given an object mesh (`.obj`), predict affordance and generate grasp poses:
 ```bash
 conda activate v2ap
 
-# Step 1: Predict contact affordance
-python inference/predict_affordance.py \
+# Step 1: Predict contact affordance + generate grasp candidates
+python inference/grasp_pose.py \
     --mesh examples/demo/chips_can/mesh.obj \
     --checkpoint weights/v2ap_affordance.pth \
     --out output/chips_can/
 
-# Step 2: Generate grasp candidates from affordance
-python tools/generate_candidates.py \
-    --affordance output/chips_can/affordance.npy \
-    --mesh examples/demo/chips_can/mesh.obj \
-    --out output/chips_can/
-
-# Step 3: Visualize
-python tools/visualize.py --session output/chips_can/
+# Step 2: Visualize grasp candidates
+python tools/vis_grasp_candidates.py --session output/chips_can/
 ```
 
 Download the demo object:
@@ -198,13 +192,16 @@ python train.py \
 ### Step 3: Evaluate in Simulation
 
 ```bash
-# Convert object meshes to USD
-python sim/convert_batch_usd.py --mesh-dir data_hub/meshes/ --out data_hub/usd/
+# Generate PDM grasp candidates for all objects
+python tools/batch_pdm_candidates.py \
+    --prior-dir data_hub/ProcessedData/human_prior_fp/ \
+    --mesh-dir data_hub/meshes/ \
+    --out output/candidates/
 
-# Run grasp evaluation
-python evaluation/run_eval.py \
+# Evaluate in simulation
+python tools/run_round_eval.py \
     --checkpoint output/checkpoints/best.pth \
-    --objects data_hub/meshes/ \
+    --candidates output/candidates/ \
     --policy v2ap \
     --n-trials 10
 ```

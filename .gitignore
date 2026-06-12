@@ -120,3 +120,13 @@ third_party/dust3r/
 third_party/mast3r/
 third_party/graspnet-baseline/
 BundleSDF/
+
+# Internal server-specific scripts (not for public release)
+scripts/sync_results_from_titan.sh
+scripts/sync_to_titan.sh
+scripts/replay_all_116.sh
+scripts/overnight_pipeline.sh
+scripts/run_sim_titan_gpu0.sh
+scripts/run_sim_titan_gpu1.sh
+check_ready.sh
+V2AP-Graspnet-demo/
