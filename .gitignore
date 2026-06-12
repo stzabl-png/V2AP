@@ -18,6 +18,8 @@ _DATA/
 *.tar.gz
 *.zip
 # Images
+# Exclude repo documentation images from the png ignore rule
+!Repo_Image/*.png
 *.png
 *.jpg
 *.jpeg
