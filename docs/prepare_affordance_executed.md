@@ -47,7 +47,7 @@ python3 tools/vis_rotated_mesh_hp.py --obj ycb_dex_10 --dataset dexycb
 
 ```bash
 conda activate bundlesdf
-cd ~/Project/Affordance2Grasp
+cd ~/Project/V2AP
 
 python3 tools/prepare_affordance_executed.py
 python3 tools/prepare_affordance_executed.py --workers 8   # 按物体多进程（默认 --workers 1）

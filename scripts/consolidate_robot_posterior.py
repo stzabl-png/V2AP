@@ -14,8 +14,8 @@ consolidate_robot_posterior.py
 import os, sys, glob, h5py
 import numpy as np
 
-BASE    = '/home/lyh/Project/Affordance2Grasp/output'
-OUT_DIR = '/home/lyh/Project/Affordance2Grasp/output/RobotPosteriorTotal'
+BASE    = '/home/lyh/Project/V2AP/output'
+OUT_DIR = '/home/lyh/Project/V2AP/output/RobotPosteriorTotal'
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # 源目录及标签（优先级：后面的覆盖前面的不重要，但成功次数全部累加）

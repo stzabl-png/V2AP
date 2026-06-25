@@ -1,5 +1,5 @@
 """
-Affordance2Grasp — Global Configuration
+V2AP — Global Configuration
 ========================================
 All paths and default parameters in one place.
 Uses environment variables for external tool paths (no hardcoded machine-specific paths).
@@ -15,52 +15,95 @@ OUTPUT_DIR = os.path.join(PROJECT_DIR, "output")
 ASSETS_DIR = os.path.join(PROJECT_DIR, "assets")
 
 # ============================================================
-# data_hub — Unified Data Center
+# data/ — Raw Datasets
+# ============================================================
+DATA_DIR = os.path.join(PROJECT_DIR, "data")
+EGO_DATA_DIR = os.path.join(DATA_DIR, "egocentric")   # egodex, hoi4d
+TP_DATA_DIR  = os.path.join(DATA_DIR, "third_person")  # dexycb, oakink_v1, ...
+
+# ============================================================
+# data_hub/ — Pipeline Intermediate Results
 # ============================================================
 DATA_HUB = os.path.join(PROJECT_DIR, "data_hub")
-MESH_V1_DIR = os.path.join(DATA_HUB, "meshes", "v1")
-MESH_V2_DIR = os.path.join(DATA_HUB, "meshes", "v2")
-MESH_CP_DIR = os.path.join(DATA_HUB, "meshes", "contactpose")
-GRASP_MESH_DIR = os.path.join(DATA_HUB, "meshes", "grasp_collection")
-SEQUENCES_V1_DIR = os.path.join(DATA_HUB, "sequences", "v1")
-TRAINING_M5_DIR = os.path.join(DATA_HUB, "training_m5")
 
-HUMAN_PRIOR_DIR = os.path.join(DATA_HUB, "human_prior")  # lowercase — matches Phase 2/3 scripts
-ROBOT_GT_DIR = os.path.join(DATA_HUB, "robot_gt")
-TRAINING_DIR = os.path.join(DATA_HUB, "training")
-REGISTRY_PATH = os.path.join(DATA_HUB, "registry.json")
+MANO_DIR          = os.path.join(DATA_HUB, "mano")
+VIDEO_PARAMS_DIR  = os.path.join(DATA_HUB, "video_params")
+ROBOT_GT_DIR      = os.path.join(DATA_HUB, "robot_posterior")   # formerly robot_gt
+ROBOT_POSTERIOR_DIR = ROBOT_GT_DIR                                # canonical alias
 
-# Legacy aliases (for backward compatibility)
-OAKINK_OBJ_DIR = MESH_V1_DIR
-OAKINK_FILTERED_DIR = SEQUENCES_V1_DIR
-OAKINK2_OBJ_DIR = MESH_V2_DIR
+HUMAN_PRIOR_DIR   = os.path.join(DATA_HUB, "human_prior")
+# Egocentric object-pose output root. Datasets (hoi4d, egodex) are SIBLINGS under
+# here: {EGO_POSE_DIR}/{dataset}/{seq_id}/{ob_in_cam,track_vis}/. Canonical for FP
+# writer + downstream readers (contact map, mano align). Replaces legacy
+# obj_poses_ego/ and the over-nested poses/Egocentric/Egodex/ layout.
+EGO_POSE_DIR      = os.path.join(DATA_HUB, "ProcessedData", "poses", "Egocentric")
+MESH_DIR          = os.path.join(DATA_HUB, "meshes")
+MESH_RAW_DIR      = os.path.join(MESH_DIR, "raw")
+MESH_SCALED_DIR   = os.path.join(MESH_DIR, "scaled")           # SAM3D scaled meshes
+MESH_SAM3D_DIR    = os.path.join(MESH_DIR, "SAM3DMesh")
 
-# Output subdirectories
-CONTACTS_DIR = os.path.join(OUTPUT_DIR, "contacts")
-CONTACTS_V2_DIR = os.path.join(OUTPUT_DIR, "contacts_v2")
-DATASET_DIR = os.path.join(OUTPUT_DIR, "dataset")
-CHECKPOINT_DIR = os.path.join(OUTPUT_DIR, "checkpoints")
-GRASPS_DIR = os.path.join(OUTPUT_DIR, "grasps")
+TRAINING_M5_DIR   = os.path.join(DATA_HUB, "training_m5")
+TRAINING_M6_DIR   = os.path.join(DATA_HUB, "training_m6")
+TRAINING_DIR      = os.path.join(DATA_HUB, "affordance_training_data")
+REGISTRY_PATH     = os.path.join(DATA_HUB, "registry.json")
+
+# Legacy mesh aliases (kept for backward compatibility)
+MESH_V1_DIR   = os.path.join(MESH_DIR, "v1")
+MESH_V2_DIR   = os.path.join(MESH_DIR, "v2")
+MESH_CP_DIR   = os.path.join(MESH_DIR, "contactpose")
+GRASP_MESH_DIR = os.path.join(MESH_DIR, "grasp_collection")
+OAKINK_OBJ_DIR      = MESH_V1_DIR
+OAKINK2_OBJ_DIR     = MESH_V2_DIR
 
 # ============================================================
-# External Tool Paths (set via environment variables)
+# output/ subdirectories
+# ============================================================
+CHECKPOINT_DIR   = os.path.join(OUTPUT_DIR, "checkpoints")
+LOGS_DIR         = os.path.join(OUTPUT_DIR, "logs")
+VIS_DIR          = os.path.join(OUTPUT_DIR, "vis")
+EVAL_DIR         = os.path.join(OUTPUT_DIR, "eval")
+CONTACTS_DIR     = os.path.join(OUTPUT_DIR, "contacts")
+DATASET_DIR      = os.path.join(OUTPUT_DIR, "dataset_new")
+GRASPS_DIR       = os.path.join(EVAL_DIR, "grasps")
+
+# ============================================================
+# thirdparty/ — External Tool Paths
 # Only needed for upstream data generation, NOT for training/inference.
 # ============================================================
+THIRDPARTY_DIR = os.path.join(PROJECT_DIR, "thirdparty")
 ISAAC_SIM_PATH = os.environ.get("ISAAC_SIM_PATH", "")
-HAWOR_DIR  = os.environ.get("HAWOR_DIR",  os.path.join(PROJECT_DIR, "third_party", "hawor"))
-HAPTIC_DIR = os.environ.get("HAPTIC_DIR", os.path.join(PROJECT_DIR, "third_party", "haptic"))
+
+HAWOR_DIR  = os.environ.get("HAWOR_DIR",  os.path.join(THIRDPARTY_DIR, "hawor"))
+HAPTIC_DIR = os.environ.get("HAPTIC_DIR", os.path.join(THIRDPARTY_DIR, "haptic"))
 HAPTIC_MANO_DIR = os.environ.get(
     "HAPTIC_MANO_DIR",
-    os.path.join(HAPTIC_DIR, "assets", "mano")  # third_party/haptic/assets/mano/
+    os.path.join(HAPTIC_DIR, "assets", "mano")
 )
+
 ARCTIC_ROOT = os.environ.get("ARCTIC_ROOT", "")
 MANO_MODELS = os.path.join(ARCTIC_ROOT, "mano_v1_2", "models") if ARCTIC_ROOT else ""
 
-# FoundationPose — external clone required (cannot pip install)
-# Set via: export FP_ROOT=/path/to/FoundationPose
-FP_ROOT = os.environ.get("FP_ROOT", os.path.join(PROJECT_DIR, "third_party", "FoundationPose"))
+# FoundationPose
+FP_ROOT = os.environ.get("FP_ROOT", os.path.join(THIRDPARTY_DIR, "foundationpose"))
 
-# OakInk annotation repo (for GT camera intrinsics in batch_haptic_oakink.py)
+# DepthPro (formerly ml-depth-pro)
+DEPTHPRO_DIR = os.path.join(THIRDPARTY_DIR, "depthpro")
+
+# SAM3D mesh reconstruction
+SAM3D_DIR     = os.environ.get("SAM3D_DIR", os.path.join(THIRDPARTY_DIR, "sam3d"))
+SAM3D_CACHE   = os.path.join(OUTPUT_DIR, "sam3d_obj_cache")
+SAM3D_PLY_CACHE = os.path.join(OUTPUT_DIR, "sam3d_mesh_cache")
+SAM3D_USER    = os.environ.get("SAM3D_USER", os.environ.get("USER", "user"))
+
+# SAM2 interactive segmentation (installed at /home/lyh/Project/sam2)
+SAM2_DIR = os.environ.get("SAM2_DIR", os.path.join(os.path.dirname(PROJECT_DIR), "sam2"))
+
+# MegaSAM camera tracking (formerly mega-sam/)
+MEGASAM_DIR    = os.path.join(THIRDPARTY_DIR, "megasam")
+MEGASAM_OUTPUT = os.path.join(MEGASAM_DIR, "outputs")
+MEGASAM_RECON  = os.path.join(MEGASAM_DIR, "reconstructions")
+
+# OakInk annotation repo
 OAKINK_ANNO_DIR = os.environ.get("OAKINK_ANNO_DIR", "")
 
 # ContactPose (optional external dataset)
@@ -69,26 +112,11 @@ CONTACTPOSE_DATA_DIR = os.path.join(
     CONTACTPOSE_DIR, "ContactPose sample data", "contactpose_data"
 ) if CONTACTPOSE_DIR else ""
 
-# MANO/Contact caches
-HAWOR_CACHE = os.path.join(OUTPUT_DIR, "hawor_arctic_cache")
-HAPTIC_CACHE = os.path.join(OUTPUT_DIR, "haptic_arctic_cache")
-ONSET_JSON = os.path.join(OUTPUT_DIR, "arctic_grasp_onset.json")
-CONTACT_VIS_DIR = os.path.join(OUTPUT_DIR, "contact_region_vis")
-
-# SAM3D mesh reconstruction
-SAM3D_DIR = os.environ.get("SAM3D_DIR", "")
-SAM3D_CACHE = os.path.join(OUTPUT_DIR, "sam3d_obj_cache")   # triangle mesh .obj files
-SAM3D_PLY_CACHE = os.path.join(OUTPUT_DIR, "sam3d_mesh_cache")  # raw Gaussian Splat .ply files
-# Cloud server username for SAM3D (used in rsync commands)
-SAM3D_USER = os.environ.get("SAM3D_USER", os.environ.get("USER", "user"))
-
-# SAM2 interactive segmentation
-SAM2_DIR = os.environ.get("SAM2_DIR", os.path.join(PROJECT_DIR, "third_party", "sam2"))
-
-# MegaSAM camera tracking (focal + per-frame poses + depth)
-MEGASAM_DIR = os.path.join(PROJECT_DIR, "mega-sam")
-MEGASAM_OUTPUT = os.path.join(MEGASAM_DIR, "outputs")        # {scene}_droid.npz
-MEGASAM_RECON = os.path.join(MEGASAM_DIR, "reconstructions")  # {scene}/intrinsics.npy
+# MANO/Contact caches (in logs/)
+HAWOR_CACHE    = os.path.join(LOGS_DIR, "hawor_arctic_cache")
+HAPTIC_CACHE   = os.path.join(LOGS_DIR, "haptic_arctic_cache")
+ONSET_JSON     = os.path.join(LOGS_DIR, "arctic_grasp_onset.json")
+CONTACT_VIS_DIR = os.path.join(VIS_DIR, "contact_region_vis")
 
 
 # ============================================================
@@ -134,6 +162,7 @@ GAUSSIAN_SIGMA = 0.005       # 5mm gaussian kernel radius
 def ensure_dirs():
     """Create all output directories."""
     for d in [CONTACTS_DIR, DATASET_DIR, CHECKPOINT_DIR, GRASPS_DIR,
-              HUMAN_PRIOR_DIR, ROBOT_GT_DIR, TRAINING_DIR, TRAINING_M5_DIR,
+              LOGS_DIR, VIS_DIR, EVAL_DIR,
+              HUMAN_PRIOR_DIR, ROBOT_POSTERIOR_DIR, TRAINING_DIR, TRAINING_M5_DIR,
               GRASP_MESH_DIR, HAWOR_CACHE, HAPTIC_CACHE, CONTACT_VIS_DIR]:
         os.makedirs(d, exist_ok=True)

@@ -32,7 +32,7 @@ import omni.kit.asset_converter as converter
 
 # ── 路径配置 ────────────────────────────────────────────────────────────────
 HOME = os.path.expanduser("~")
-PROJECT = os.path.join(HOME, "Project", "Affordance2Grasp")
+PROJECT = os.path.join(HOME, "Project", "V2AP")
 
 OAKINK_REAL_DIR    = os.path.join(HOME, "Project", "OakInk", "shape", "OakInkObjectsV2")
 OAKINK_VIRTUAL_DIR = os.path.join(HOME, "Project", "OakInk", "shape", "OakInkVirtualObjectsV2")

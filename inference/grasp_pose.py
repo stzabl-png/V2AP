@@ -451,7 +451,7 @@ def main():
     obj_name = os.path.splitext(os.path.basename(args.mesh))[0]
 
     print("=" * 60)
-    print("Affordance2Grasp — Grasp Pose Generation (Multi-Candidate)")
+    print("V2AP — Grasp Pose Generation (Multi-Candidate)")
     print("=" * 60)
     print(f"  Mesh:      {args.mesh}")
     print(f"  Points:    {args.num_points}")

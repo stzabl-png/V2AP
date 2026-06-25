@@ -1,4 +1,4 @@
-"""Upload markers for Titan segment_daemon (must match Affordance2Grasp demo/pipeline/session_markers.py)."""
+"""Upload markers for Titan segment_daemon (must match V2AP demo/pipeline/session_markers.py)."""
 
 from __future__ import annotations
 

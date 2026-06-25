@@ -9,7 +9,7 @@ Grasp Pose Diffusion 训练脚本 — v2
     → 训练和推理条件一致，两个模型真正绑定
 
 用法:
-  cd ~/Project/Affordance2Grasp
+  cd ~/Project/V2AP
   python3 -m model.train_diffusion \\
       --pn2_ckpt  output/checkpoints/v2_sigma04/best_model.pth \\
       --gt_dirs   output/robot_gt_merged_oakink output/robot_gt_merged_dexycb \\

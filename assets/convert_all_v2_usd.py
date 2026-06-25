@@ -14,7 +14,7 @@ import asyncio
 import omni.kit.asset_converter as converter
 
 # v2 OBJ 文件目录
-V2_OBJ_DIR = os.path.expanduser("~/Project/Affordance2Grasp/output/meshes_v2")
+V2_OBJ_DIR = os.path.expanduser("~/Project/V2AP/output/meshes_v2")
 USD_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "usd")
 os.makedirs(USD_DIR, exist_ok=True)
 

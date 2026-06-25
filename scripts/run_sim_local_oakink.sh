@@ -4,7 +4,7 @@
 # ============================================================
 set -e
 
-PROJ="/home/lyh/Project/Affordance2Grasp"
+PROJ="/home/lyh/Project/V2AP"
 ISAAC_SIM_PATH="/home/lyh/isaac-sim"   # sim45 (4.5.0-rc.36, 已验证)
 SIM_SCRIPT="$PROJ/sim/run_grasp_sim.py"
 

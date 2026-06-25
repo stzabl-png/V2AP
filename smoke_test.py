@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-smoke_test.py — Affordance2Grasp 部署验证脚本
+smoke_test.py — V2AP 部署验证脚本
 ==============================================
 在 Fresh 机器上运行，验证所有 pipeline 阶段能通过。
 每个阶段只处理 1 条序列，总时间约 2-3 小时。
@@ -80,7 +80,7 @@ def main():
     args = parser.parse_args()
 
     print("=" * 60)
-    print("  Affordance2Grasp Smoke Test")
+    print("  V2AP Smoke Test")
     print(f"  Project: {PROJECT}")
     print("=" * 60)
 
@@ -103,32 +103,32 @@ def main():
               (PROJECT / "data_hub" / "ProcessedData" / "obj_recon_input" / "egocentric").exists(),
               "run: python setup_weights.py --tool egomasks")
 
-        fp_root_env = os.environ.get("FP_ROOT", str(PROJECT / "third_party" / "FoundationPose"))
+        fp_root_env = os.environ.get("FP_ROOT", str(PROJECT / "thirdparty" / "foundationpose"))
         check("FoundationPose weights",
               (Path(fp_root_env) / "weights" / "2023-10-28-18-33-37" / "model_best.pth").exists(),
               "run: python setup_weights.py --tool fp")
 
         check("HaWoR weights",
-              (PROJECT / "third_party" / "hawor" / "weights" / "hawor" / "checkpoints" / "hawor.ckpt").exists(),
+              (PROJECT / "thirdparty" / "hawor" / "weights" / "hawor" / "checkpoints" / "hawor.ckpt").exists(),
               "run: python setup_weights.py --tool hawor")
 
         check("MegaSAM weights",
-              (PROJECT / "mega-sam" / "checkpoints" / "megasam_final.pth").exists(),
+              (PROJECT / "thirdparty" / "megasam" / "checkpoints" / "megasam_final.pth").exists(),
               "run: python setup_weights.py --tool megasam")
 
         check("DepthPro weights",
-              (PROJECT / "third_party" / "ml-depth-pro" / "checkpoints" / "depth_pro.pt").exists(),
+              (PROJECT / "thirdparty" / "depthpro" / "checkpoints" / "depth_pro.pt").exists(),
               "run: python setup_weights.py --tool depthpro")
 
         check("MANO_RIGHT.pkl (HaPTIC)",
-              (PROJECT / "third_party" / "haptic" / "assets" / "mano" / "MANO_RIGHT.pkl").exists(),
+              (PROJECT / "thirdparty" / "haptic" / "assets" / "mano" / "MANO_RIGHT.pkl").exists(),
               "manual download required")
 
         check("DATA_HUB exists",
               (PROJECT / "data_hub").exists())
 
         check("DexYCB raw data",
-              (PROJECT / "data_hub" / "RawData" / "ThirdPersonRawData" / "dexycb").exists())
+              (PROJECT / "data" / "third_person" / "dexycb").exists())
 
         # setuptools<70 required for detectron2 (pkg_resources removed in >=70)
         import subprocess as _sp
@@ -143,11 +143,11 @@ def main():
         check("nvcc available (for FP build)",
               run("nvcc-check", ["nvcc", "--version"]))
         check("FoundationPose cloned",
-              (PROJECT / "third_party" / "FoundationPose").exists() or
+              (PROJECT / "thirdparty" / "foundationpose").exists() or
               bool(os.environ.get("FP_ROOT", "")),
-              "export FP_ROOT=/path/to/FoundationPose or clone to third_party/FoundationPose")
+              "export FP_ROOT=/path/to/foundationpose or clone to thirdparty/foundationpose")
         fp_root = os.environ.get("FP_ROOT",
-                  str(PROJECT / "third_party" / "FoundationPose"))
+                  str(PROJECT / "thirdparty" / "foundationpose"))
         check("FoundationPose built (mycpp)",
               (Path(fp_root) / "mycpp" / "build").exists(),
               "cd $FP_ROOT && bash build_all_conda.sh")
@@ -163,19 +163,19 @@ def main():
         print("\n[PHASE 1A] Third-Person Pipeline (1 DexYCB sequence)")
 
         run("1A-depth-pro",
-            ["python", "data/batch_depth_pro.py", "--dataset", "dexycb", "--limit", "1"],
+            ["python", "pipeline/third_person/batch_depth_pro.py", "--dataset", "dexycb", "--limit", "1"],
             env_name="depth-pro", timeout=600)
 
         run("1A-hawor-ego-smoke",
-            ["python", "data/batch_hawor.py", "--dataset", "egodex", "--end", "1"],
+            ["python", "pipeline/ego/batch_hawor.py", "--dataset", "egodex", "--end", "1"],
             env_name="hawor", timeout=900)
 
         run("1A-haptic",
-            ["python", "data/batch_haptic.py", "--dataset", "dexycb", "--limit", "1"],
+            ["python", "pipeline/third_person/batch_haptic.py", "--dataset", "dexycb", "--limit", "1"],
             env_name="haptic", timeout=600)
 
         run("1A-fp-pose",
-            ["python", "tools/batch_obj_pose.py", "--dataset", "dexycb", "--limit", "1"],
+            ["python", "tools/batch/batch_obj_pose.py", "--dataset", "dexycb", "--limit", "1"],
             env_name="bundlesdf", timeout=1200)
 
     # ── Phase 1B ──────────────────────────────────────────────────
@@ -183,16 +183,16 @@ def main():
         print("\n[PHASE 1B] Egocentric Pipeline (1 EgoDex sequence)")
 
         run("1B-megasam",
-            ["python", "data/batch_megasam.py", "--dataset", "egodex",
+            ["python", "pipeline/ego/batch_megasam.py", "--dataset", "egodex",
              "--start", "0", "--end", "1"],
             env_name="mega_sam", timeout=900)
 
         run("1B-hawor-ego",
-            ["python", "data/batch_hawor.py", "--dataset", "egodex", "--end", "1"],
+            ["python", "pipeline/ego/batch_hawor.py", "--dataset", "egodex", "--end", "1"],
             env_name="hawor", timeout=900)
 
         run("1B-fp-ego",
-            ["python", "tools/batch_obj_pose_ego.py",
+            ["python", "tools/batch/batch_obj_pose_ego.py",
              "--dataset", "egodex", "--limit", "1"],
             env_name="bundlesdf", timeout=1200)
 
@@ -201,8 +201,7 @@ def main():
         print("\n[PHASE 2] Aggregate HumanPrior (DexYCB subset)")
 
         run("2-align-mano-fp",
-            # batch_align_mano_fp has no --limit; use --obj to limit to one object
-            ["python", "data/batch_align_mano_fp.py", "--dataset", "dexycb",
+            ["python", "pipeline/ego/batch_align_mano_fp.py", "--dataset", "dexycb",
              "--obj", "003_cracker_box"],
             env_name="bundlesdf", timeout=600)
 
@@ -218,7 +217,7 @@ def main():
 
         if n_hp > 0 and not args.skip_gpu:
             run("4-build-dataset",
-                ["python", "data/build_dataset.py", "--gtfree"],
+                ["python", "pipeline/aggregate/build_dataset.py", "--gtfree"],
                 env_name="bundlesdf", timeout=600)
 
             run("4-train-1epoch",
@@ -244,7 +243,7 @@ def main():
 
     # Write report
     with open(REPORT, "w") as f:
-        f.write(f"Affordance2Grasp Smoke Test\n")
+        f.write(f"V2AP Smoke Test\n")
         f.write(f"Project: {PROJECT}\n\n")
         for label, ok, elapsed, code in results:
             f.write(f"{'PASS' if ok else 'FAIL'}  {label}  ({elapsed:.0f}s)\n")

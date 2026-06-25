@@ -1,9 +1,9 @@
 # OakInk v2 Integration Guide
 
-End-to-end workflow for OakInk-v2 → Affordance2Grasp on a fresh machine.
+End-to-end workflow for OakInk-v2 → V2AP on a fresh machine.
 
 ## Prerequisites
-- Affordance2Grasp cloned and runnable
+- V2AP cloned and runnable
 - Python 3.10+
 - MANO models downloaded to `~/Project/mano_v1_2/`
 
@@ -40,7 +40,7 @@ python script/download.py
 ## Step 3 · Extract Contact Maps (~21 hours)
 
 ```bash
-cd ~/Project/Affordance2Grasp
+cd ~/Project/V2AP
 nohup python data/extract_contacts_v2.py \
   --oakink2_dir ~/Project/OakInk2/OakInk-v2-hub \
   --workers 4 \
@@ -56,7 +56,7 @@ Supports resume — rerun the same command to continue from where it stopped.
 ## Step 4 · Build Merged Training Set (~30 min)
 
 ```bash
-cd ~/Project/Affordance2Grasp
+cd ~/Project/V2AP
 python data/build_dataset.py --output_dir output/dataset_v1v2
 ```
 

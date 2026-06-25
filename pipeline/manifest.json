@@ -1,0 +1,188 @@
+{
+  "description": "ARCTIC s05 grab sequences - split into obj (clean) and mano (interaction) segments",
+  "total_sequences": 10,
+  "obj_dir": "/home/lyh/Project/V2AP/data/dataset_obj",
+  "mano_dir": "/home/lyh/Project/V2AP/data/dataset_mano",
+  "sequences": [
+    {
+      "subject": "s05",
+      "sequence": "box_grab_01",
+      "cam": "1",
+      "total_frames": 677,
+      "hand_entry_frame": 26,
+      "obj": {
+        "start": 0,
+        "end": 21,
+        "n_frames": 22
+      },
+      "mano": {
+        "start": 21,
+        "end": 676,
+        "n_frames": 656
+      },
+      "object_name": "box"
+    },
+    {
+      "subject": "s05",
+      "sequence": "capsulemachine_grab_01",
+      "cam": "1",
+      "total_frames": 748,
+      "hand_entry_frame": 27,
+      "obj": {
+        "start": 0,
+        "end": 22,
+        "n_frames": 23
+      },
+      "mano": {
+        "start": 22,
+        "end": 747,
+        "n_frames": 726
+      },
+      "object_name": "capsulemachine"
+    },
+    {
+      "subject": "s05",
+      "sequence": "espressomachine_grab_01",
+      "cam": "1",
+      "total_frames": 890,
+      "hand_entry_frame": 29,
+      "obj": {
+        "start": 0,
+        "end": 24,
+        "n_frames": 25
+      },
+      "mano": {
+        "start": 24,
+        "end": 889,
+        "n_frames": 866
+      },
+      "object_name": "espressomachine"
+    },
+    {
+      "subject": "s05",
+      "sequence": "ketchup_grab_01",
+      "cam": "1",
+      "total_frames": 768,
+      "hand_entry_frame": 23,
+      "obj": {
+        "start": 0,
+        "end": 18,
+        "n_frames": 19
+      },
+      "mano": {
+        "start": 18,
+        "end": 767,
+        "n_frames": 750
+      },
+      "object_name": "ketchup"
+    },
+    {
+      "subject": "s05",
+      "sequence": "microwave_grab_01",
+      "cam": "1",
+      "total_frames": 690,
+      "hand_entry_frame": 31,
+      "obj": {
+        "start": 0,
+        "end": 26,
+        "n_frames": 27
+      },
+      "mano": {
+        "start": 26,
+        "end": 689,
+        "n_frames": 664
+      },
+      "object_name": "microwave"
+    },
+    {
+      "subject": "s05",
+      "sequence": "mixer_grab_01",
+      "cam": "1",
+      "total_frames": 781,
+      "hand_entry_frame": 27,
+      "obj": {
+        "start": 0,
+        "end": 22,
+        "n_frames": 23
+      },
+      "mano": {
+        "start": 22,
+        "end": 780,
+        "n_frames": 759
+      },
+      "object_name": "mixer"
+    },
+    {
+      "subject": "s05",
+      "sequence": "notebook_grab_01",
+      "cam": "1",
+      "total_frames": 942,
+      "hand_entry_frame": 24,
+      "obj": {
+        "start": 0,
+        "end": 19,
+        "n_frames": 20
+      },
+      "mano": {
+        "start": 19,
+        "end": 941,
+        "n_frames": 923
+      },
+      "object_name": "notebook"
+    },
+    {
+      "subject": "s05",
+      "sequence": "phone_grab_01",
+      "cam": "1",
+      "total_frames": 819,
+      "hand_entry_frame": 28,
+      "obj": {
+        "start": 0,
+        "end": 23,
+        "n_frames": 24
+      },
+      "mano": {
+        "start": 23,
+        "end": 818,
+        "n_frames": 796
+      },
+      "object_name": "phone"
+    },
+    {
+      "subject": "s05",
+      "sequence": "scissors_grab_01",
+      "cam": "1",
+      "total_frames": 676,
+      "hand_entry_frame": 24,
+      "obj": {
+        "start": 0,
+        "end": 19,
+        "n_frames": 20
+      },
+      "mano": {
+        "start": 19,
+        "end": 675,
+        "n_frames": 657
+      },
+      "object_name": "scissors"
+    },
+    {
+      "subject": "s05",
+      "sequence": "waffleiron_grab_01",
+      "cam": "1",
+      "total_frames": 624,
+      "hand_entry_frame": 24,
+      "obj": {
+        "start": 0,
+        "end": 19,
+        "n_frames": 20
+      },
+      "mano": {
+        "start": 19,
+        "end": 623,
+        "n_frames": 605
+      },
+      "object_name": "waffleiron"
+    }
+  ]
+}

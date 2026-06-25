@@ -13,8 +13,8 @@ import argparse
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Download Affordance2Grasp data from HuggingFace")
-    parser.add_argument("--repo", default="UCBProject/Affordance2Grasp-Data",
+    parser = argparse.ArgumentParser(description="Download V2AP data from HuggingFace")
+    parser.add_argument("--repo", default="UCBProject/V2AP-Data",
                         help="HuggingFace dataset repo ID")
     parser.add_argument("--subset", choices=["all", "train", "inference"],
                         default="all",

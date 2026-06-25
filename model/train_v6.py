@@ -107,7 +107,7 @@ class AffordanceHeatmapDataset(Dataset):
         if self.augment:
             pts, nrm, lbl = self._augment(pts, nrm, lbl)
 
-        features = np.concatenate([pts, nrm], axis=-1)  # (N, 6)
+        features = pts.copy()  # (N, 3) — xyz only
         return (
             torch.from_numpy(pts).float(),
             torch.from_numpy(features).float(),
@@ -335,7 +335,7 @@ def main():
     print("=" * 70)
     print("PointNet++ v6 — Continuous Affordance Heatmap")
     print("=" * 70)
-    print(f"  Input:       xyz + normals (6ch), 4096 pts")
+    print(f"  Input:       xyz only (3ch), 4096 pts")
     print(f"  Output:      sigmoid heatmap [0,1]")
     print(f"  Loss:        Weighted L1 (fg_weight={args.fg_weight})")
     print(f"  Device:      {device}")
@@ -439,7 +439,7 @@ def main():
     # ============================================================
     # Model
     # ============================================================
-    model = PointNet2AffordanceV6(in_channel=6).to(device)
+    model = PointNet2AffordanceV6(in_channel=3).to(device)
     n_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
     print(f"\n  Model params: {n_params:,}")
 

@@ -12,7 +12,7 @@ train_diffusion_v2.py — Grasp Pose Diffusion 训练脚本 v2
   ⑦ 日志:      model/logger.py 完整记录
 
 用法:
-  cd ~/Project/Affordance2Grasp
+  cd ~/Project/V2AP
   python3 -m model.train_diffusion_v2 \\
       --v6_ckpt     data_hub/ProcessedData/RobotPosterior/best_v6_model.pth \\
       --aff_h5      data_hub/ProcessedData/RobotPosterior/affordance_all.h5 \\

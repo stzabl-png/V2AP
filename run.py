@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Affordance2Grasp — Unified Entry Point
+V2AP — Unified Entry Point
 ========================================
 Single command for: object mesh → affordance inference → grasp pose → Isaac Sim execution
 
@@ -100,7 +100,7 @@ def cmd_sim(hdf5_path, args):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Affordance2Grasp — Full pipeline from object mesh to simulated grasping",
+        description="V2AP — Full pipeline from object mesh to simulated grasping",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:

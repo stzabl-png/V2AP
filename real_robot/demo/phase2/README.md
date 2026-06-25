@@ -79,7 +79,7 @@ Example: `20260601_143022_chips`
 | Side | Root |
 |------|------|
 | **Razor** (V2AP-demo repo) | `demo/phase2/sessions/<session_id>/` |
-| **Titan** (Affordance2Grasp) | `$TITAN_ROOT/demo/sessions/<session_id>/` |
+| **Titan** (V2AP) | `$TITAN_ROOT/demo/sessions/<session_id>/` |
 
 Both sides use the same subtree:
 
@@ -106,7 +106,7 @@ Replace placeholders:
 | `RAZOR_HOST` | laptop hostname or IP |
 | `RAZOR_REPO` | `/path/to/V2AP-demo` |
 | `TITAN_HOST` | Titan SSH host |
-| `TITAN_ROOT` | `/path/to/Affordance2Grasp` on Titan |
+| `TITAN_ROOT` | `/path/to/V2AP` on Titan |
 | `SESSION` | `20260601_143022_chips` |
 
 **Razor → Titan (after capture)**
@@ -240,7 +240,7 @@ input/
 - `schema_version` must be **`"1.1"`** for FoundationPose pipeline. Titan rejects unknown major versions.
 - Legacy `1.0` sessions (ICP-era) may still validate on Razor but must be re-captured for FP metadata.
 
-**Titan T6 hint:** `pipeline.titan.max_candidates` (default **50**) tells Affordance2Grasp how many PDM grasp hypotheses to export in `candidates.json`. Razor sets this at capture and again in `run_server_client_pipeline.py` via `--titan-max-candidates` before upload. **Titan must read this field** and pass it to T6 as `--n-samples` (fallback 50 if missing).
+**Titan T6 hint:** `pipeline.titan.max_candidates` (default **50**) tells V2AP how many PDM grasp hypotheses to export in `candidates.json`. Razor sets this at capture and again in `run_server_client_pipeline.py` via `--titan-max-candidates` before upload. **Titan must read this field** and pass it to T6 as `--n-samples` (fallback 50 if missing).
 
 ### Multi-grasp testing (one perceive, many grasps)
 
@@ -773,7 +773,7 @@ Logs: Titan pinch in base, open-grip IK errors, live thumb/index vs Titan after 
 
 ---
 
-## Titan repo layout (`Affordance2Grasp/demo/`)
+## Titan repo layout (`V2AP/demo/`)
 
 Implemented on [UCB `titan` branch](https://github.com/stzabl-png/UCB_Project/tree/titan/demo). **Automation spec:** UCB `demo/SERVER_CLIENT_PLAN.md`.
 

@@ -42,8 +42,8 @@ HDF5 schema、Legacy 对比见 [`grasp_collect_pipeline.md`](grasp_collect_pipel
 ### 0.3 Phase 1 — 代码
 
 ```bash
-git clone <repo-url> Affordance2Grasp
-cd Affordance2Grasp
+git clone <repo-url> V2AP
+cd V2AP
 git checkout <branch>
 ```
 
@@ -59,7 +59,7 @@ git checkout <branch>
 见 **§3** 下载。Dataset（当前 HF 仓库名，见 §3.0）：
 
 ```bash
-export PROJ=/path/to/Affordance2Grasp
+export PROJ=/path/to/V2AP
 export HF_DATASET=UCBProject/hard_obj_grasp_collect_pipeline   # 见 §3.0
 cd "$PROJ"
 
@@ -106,7 +106,7 @@ Sim 不在 conda 里装 `isaacsim`；USD 转换可选 `pip install usd-core`。
 
 ```bash
 conda activate bundlesdf
-export PROJ=/path/to/Affordance2Grasp
+export PROJ=/path/to/V2AP
 export ISAAC_SIM_PATH=/path/to/isaac-sim
 cd "$PROJ"
 
@@ -425,7 +425,7 @@ rsync -a output/pool_merged/ output/grasp_collect_no_rot/candidates/pool/
 pip install -U huggingface_hub
 hf auth login
 
-export PROJ=/path/to/Affordance2Grasp
+export PROJ=/path/to/V2AP
 export HF_DATASET=UCBProject/hard_obj_grasp_collect_pipeline
 export STAGING=/tmp/hf_pool_grasp_staging
 ```
@@ -524,10 +524,10 @@ find "$DEST" -name '*.ply' | wc -l   # 期望 0
 cat > "$STAGING/README.md" <<'EOF'
 # Pool grasp collect pipeline assets
 
-Download into Affordance2Grasp repo root:
+Download into V2AP repo root:
 ```bash
 hf download UCBProject/hard_obj_grasp_collect_pipeline \
-  --repo-type dataset --local-dir /path/to/Affordance2Grasp
+  --repo-type dataset --local-dir /path/to/V2AP
 ```
 
 See `docs/pool_grasp_sim_pipeline.md`.

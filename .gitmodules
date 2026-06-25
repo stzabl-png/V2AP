@@ -1,6 +1,3 @@
-[submodule "mega-sam"]
-	path = mega-sam
-	url = https://github.com/mega-sam/mega-sam.git
-[submodule "third_party/ml-depth-pro"]
-	path = third_party/ml-depth-pro
+[submodule "thirdparty/depthpro"]
+	path = thirdparty/depthpro
 	url = https://github.com/apple/ml-depth-pro.git

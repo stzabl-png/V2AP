@@ -40,10 +40,10 @@ Or download manually:
 
 ```bash
 # Pretrained affordance model weights
-huggingface-cli download UCBProject/Affordance2Grasp-Weights --local-dir weights/
+huggingface-cli download UCBProject/V2AP-Weights --local-dir weights/
 
 # Processed contact prior dataset (human prior + robot posterior)
-huggingface-cli download UCBProject/Affordance2Grasp-EgoDex --repo-type dataset --local-dir data_hub/ProcessedData/
+huggingface-cli download UCBProject/V2AP-EgoDex --repo-type dataset --local-dir data_hub/ProcessedData/
 ```
 
 The public repository does **not** include large datasets, generated experiment results, or pretrained checkpoints. Expected workspace layout:

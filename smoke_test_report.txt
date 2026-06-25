@@ -1,0 +1,28 @@
+V2AP Smoke Test
+Project: /home/lyh/Project/V2AP
+
+PASS  Python ≥ 3.9  (0s)
+PASS  import config  (0s)
+PASS  config.py importable  (0s)
+PASS  hf_hub  (0s)
+PASS  huggingface_hub installed  (0s)
+PASS  setup_weights.py exists  (0s)
+FAIL  EgoDataMasks present  (0s)
+PASS  FoundationPose weights  (0s)
+PASS  HaWoR weights  (0s)
+PASS  MegaSAM weights  (0s)
+PASS  DepthPro weights  (0s)
+PASS  MANO_RIGHT.pkl (HaPTIC)  (0s)
+PASS  DATA_HUB exists  (0s)
+PASS  DexYCB raw data  (0s)
+PASS  setuptools<70 (detectron2 compat)  (0s)
+PASS  cmake-check  (0s)
+PASS  cmake available  (0s)
+FAIL  nvcc-check  (0s)
+FAIL  nvcc available (for FP build)  (0s)
+PASS  FoundationPose cloned  (0s)
+PASS  FoundationPose built (mycpp)  (0s)
+PASS  disk space > 100 GB free  (0s)
+PASS  human_prior files present  (0s)
+
+20/23 passed

@@ -388,7 +388,7 @@ demo/
 Titan side (separate repo):
 
 ```text
-Affordance2Grasp/                   # $TITAN_ROOT
+V2AP/                   # $TITAN_ROOT
 ├── demo/pipeline/                  # python -m demo.pipeline
 ├── demo/scripts/T1 … T7/
 └── demo/sessions/                  # rsync target

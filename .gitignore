@@ -2,6 +2,7 @@
 output/
 data_hub/
 _DATA/
+/data/
 # Binary files
 *.pth
 *.ckpt
@@ -112,7 +113,10 @@ hawor.ckpt
 infiller.pt
 checkpoint-rs.tar
 
-# Third-party source trees (installed via scripts, not vendored)
+# Third-party source trees (renamed thirdparty/ — clones + depthpro submodule, not vendored)
+/thirdparty/
+# Nested git clone (GraspNet demo, has its own .git — clone separately)
+Baseline/GraspNet/demo_v2/
 third_party/hawor/
 third_party/haptic/
 third_party/FoundationPose/

@@ -24,7 +24,7 @@ Entry points live under `model/pdm/`:
 5. **Visualize** — overlay grippers on the condition cloud; optional `overview.png` montage.
 
 ```bash
-export PROJ=/home/vision/Project/Affordance2Grasp
+export PROJ=/home/vision/Project/V2AP
 cd "$PROJ"
 
 # 1) Precompute object conditions (v6 prediction on metric rotated_mesh; cached once)

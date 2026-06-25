@@ -1,4 +1,4 @@
-"""Titan-side hints embedded in Razor input/session.json (read by Affordance2Grasp T6)."""
+"""Titan-side hints embedded in Razor input/session.json (read by V2AP T6)."""
 
 from __future__ import annotations
 

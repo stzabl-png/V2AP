@@ -1,9 +1,0 @@
-checkpoints/
-__pycache__/
-*.pyc
-*.pyo
-splat.ply
-notebook/gaussians/
-notebook/meshes/single/
-notebook/meshes/multi/
-*.egg-info/

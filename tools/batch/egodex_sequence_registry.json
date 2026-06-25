@@ -1,0 +1,82 @@
+{
+  "hoi4d::ZY20210800001_H1_C11_N59_S376_s04_T4": {
+    "dataset": "hoi4d",
+    "seq_id": "ZY20210800001_H1_C11_N59_S376_s04_T4",
+    "obj_name": "ZY20210800001_H1_C11_N59_S376_s04_T4",
+    "rgb_dir": "data/egocentric/hoi4d/HOI4D_release/ZY20210800001/H1/C11/N59/S376/s04/T4/align_rgb/image/extracted_images",
+    "depth_dir": "data_hub/ProcessedData/egocentric_depth/hoi4d/ZY20210800001_H1_C11_N59_S376_s04_T4",
+    "mesh_path": "data_hub/ProcessedData/obj_meshes/hoi4d/ZY20210800001_H1_C11_N59_S376_s04_T4/mesh.ply"
+  },
+  "hoi4d::ZY20210800001_H1_C12_N43_S165_s05_T1": {
+    "dataset": "hoi4d",
+    "seq_id": "ZY20210800001_H1_C12_N43_S165_s05_T1",
+    "obj_name": "ZY20210800001_H1_C12_N43_S165_s05_T1",
+    "rgb_dir": "data/egocentric/hoi4d/HOI4D_release/ZY20210800001/H1/C12/N43/S165/s05/T1/align_rgb/image/extracted_images",
+    "depth_dir": "data_hub/ProcessedData/egocentric_depth/hoi4d/ZY20210800001_H1_C12_N43_S165_s05_T1",
+    "mesh_path": "data_hub/ProcessedData/obj_meshes/hoi4d/ZY20210800001_H1_C12_N43_S165_s05_T1/mesh.ply"
+  },
+  "hoi4d::ZY20210800001_H1_C17_N68_S363_s03_T3": {
+    "dataset": "hoi4d",
+    "seq_id": "ZY20210800001_H1_C17_N68_S363_s03_T3",
+    "obj_name": "ZY20210800001_H1_C17_N68_S363_s03_T3",
+    "rgb_dir": "data/egocentric/hoi4d/HOI4D_release/ZY20210800001/H1/C17/N68/S363/s03/T3/align_rgb/image/extracted_images",
+    "depth_dir": "data_hub/ProcessedData/egocentric_depth/hoi4d/ZY20210800001_H1_C17_N68_S363_s03_T3",
+    "mesh_path": "data_hub/ProcessedData/obj_meshes/hoi4d/ZY20210800001_H1_C17_N68_S363_s03_T3/mesh.ply"
+  },
+  "hoi4d::ZY20210800001_H1_C2_N24_S214_s04_T1": {
+    "dataset": "hoi4d",
+    "seq_id": "ZY20210800001_H1_C2_N24_S214_s04_T1",
+    "obj_name": "ZY20210800001_H1_C2_N24_S214_s04_T1",
+    "rgb_dir": "data/egocentric/hoi4d/HOI4D_release/ZY20210800001/H1/C2/N24/S214/s04/T1/align_rgb/image/extracted_images",
+    "depth_dir": "data_hub/ProcessedData/egocentric_depth/hoi4d/ZY20210800001_H1_C2_N24_S214_s04_T1",
+    "mesh_path": "data_hub/ProcessedData/obj_meshes/hoi4d/ZY20210800001_H1_C2_N24_S214_s04_T1/mesh.ply"
+  },
+  "hoi4d::ZY20210800001_H1_C3_N23_S19_s01_T1": {
+    "dataset": "hoi4d",
+    "seq_id": "ZY20210800001_H1_C3_N23_S19_s01_T1",
+    "obj_name": "ZY20210800001_H1_C3_N23_S19_s01_T1",
+    "rgb_dir": "data/egocentric/hoi4d/HOI4D_release/ZY20210800001/H1/C3/N23/S19/s01/T1/align_rgb/image/extracted_images",
+    "depth_dir": "data_hub/ProcessedData/egocentric_depth/hoi4d/ZY20210800001_H1_C3_N23_S19_s01_T1",
+    "mesh_path": "data_hub/ProcessedData/obj_meshes/hoi4d/ZY20210800001_H1_C3_N23_S19_s01_T1/mesh.ply"
+  },
+  "hoi4d::ZY20210800001_H1_C8_N27_S76_s03_T1": {
+    "dataset": "hoi4d",
+    "seq_id": "ZY20210800001_H1_C8_N27_S76_s03_T1",
+    "obj_name": "ZY20210800001_H1_C8_N27_S76_s03_T1",
+    "rgb_dir": "data/egocentric/hoi4d/HOI4D_release/ZY20210800001/H1/C8/N27/S76/s03/T1/align_rgb/image/extracted_images",
+    "depth_dir": "data_hub/ProcessedData/egocentric_depth/hoi4d/ZY20210800001_H1_C8_N27_S76_s03_T1",
+    "mesh_path": "data_hub/ProcessedData/obj_meshes/hoi4d/ZY20210800001_H1_C8_N27_S76_s03_T1/mesh.ply"
+  },
+  "hoi4d::ZY20210800002_H2_C6_N28_S246_s02_T3": {
+    "dataset": "hoi4d",
+    "seq_id": "ZY20210800002_H2_C6_N28_S246_s02_T3",
+    "obj_name": "ZY20210800002_H2_C6_N28_S246_s02_T3",
+    "rgb_dir": "data/egocentric/hoi4d/HOI4D_release/ZY20210800002/H2/C6/N28/S246/s02/T3/align_rgb/image/extracted_images",
+    "depth_dir": "data_hub/ProcessedData/egocentric_depth/hoi4d/ZY20210800002_H2_C6_N28_S246_s02_T3",
+    "mesh_path": "data_hub/ProcessedData/obj_meshes/hoi4d/ZY20210800002_H2_C6_N28_S246_s02_T3/mesh.ply"
+  },
+  "hoi4d::ZY20210800004_H4_C14_N30_S335_s01_T1": {
+    "dataset": "hoi4d",
+    "seq_id": "ZY20210800004_H4_C14_N30_S335_s01_T1",
+    "obj_name": "ZY20210800004_H4_C14_N30_S335_s01_T1",
+    "rgb_dir": "data/egocentric/hoi4d/HOI4D_release/ZY20210800004/H4/C14/N30/S335/s01/T1/align_rgb/image/extracted_images",
+    "depth_dir": "data_hub/ProcessedData/egocentric_depth/hoi4d/ZY20210800004_H4_C14_N30_S335_s01_T1",
+    "mesh_path": "data_hub/ProcessedData/obj_meshes/hoi4d/ZY20210800004_H4_C14_N30_S335_s01_T1/mesh.ply"
+  },
+  "hoi4d::ZY20210800004_H4_C18_N48_S364_s03_T2": {
+    "dataset": "hoi4d",
+    "seq_id": "ZY20210800004_H4_C18_N48_S364_s03_T2",
+    "obj_name": "ZY20210800004_H4_C18_N48_S364_s03_T2",
+    "rgb_dir": "data/egocentric/hoi4d/HOI4D_release/ZY20210800004/H4/C18/N48/S364/s03/T2/align_rgb/image/extracted_images",
+    "depth_dir": "data_hub/ProcessedData/egocentric_depth/hoi4d/ZY20210800004_H4_C18_N48_S364_s03_T2",
+    "mesh_path": "data_hub/ProcessedData/obj_meshes/hoi4d/ZY20210800004_H4_C18_N48_S364_s03_T2/mesh.ply"
+  },
+  "hoi4d::ZY20210800004_H4_C1_N28_S242_s05_T3": {
+    "dataset": "hoi4d",
+    "seq_id": "ZY20210800004_H4_C1_N28_S242_s05_T3",
+    "obj_name": "ZY20210800004_H4_C1_N28_S242_s05_T3",
+    "rgb_dir": "data/egocentric/hoi4d/HOI4D_release/ZY20210800004/H4/C1/N28/S242/s05/T3/align_rgb/image/extracted_images",
+    "depth_dir": "data_hub/ProcessedData/egocentric_depth/hoi4d/ZY20210800004_H4_C1_N28_S242_s05_T3",
+    "mesh_path": "data_hub/ProcessedData/obj_meshes/hoi4d/ZY20210800004_H4_C1_N28_S242_s05_T3/mesh.ply"
+  }
+}

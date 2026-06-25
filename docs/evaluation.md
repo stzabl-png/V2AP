@@ -57,7 +57,7 @@ sim/evaluation/
 Isaac Sim 需要用安装目录里的 `python.sh` 启动。不要依赖本地 alias，例如 `sim45`，因为不同机器不一定配置了它。
 
 ```bash
-export PROJ=/home/vision/Project/Affordance2Grasp
+export PROJ=/home/vision/Project/V2AP
 export ISAAC_SIM_PATH=/home/vision/isaacsim
 cd "$PROJ"
 ```
@@ -75,7 +75,7 @@ env -u PYTHONPATH -u PYTHONHOME $ISAAC_SIM_PATH/python.sh evaluation/eval_single
 ### 下载
 
 ```bash
-cd /path/to/Affordance2Grasp
+cd /path/to/V2AP
 huggingface-cli download UCBProject/<dataset-name> \
   --repo-type dataset \
   --local-dir /tmp/a2g_eval_assets
@@ -86,7 +86,7 @@ huggingface-cli download UCBProject/<dataset-name> \
 将下载内容同步到 repo 根目录，保持相对路径不变：
 
 ```bash
-cd /path/to/Affordance2Grasp
+cd /path/to/V2AP
 rsync -a /tmp/a2g_eval_assets/ ./
 ```
 

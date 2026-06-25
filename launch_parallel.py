@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Multi-GPU Parallel Launcher for Affordance2Grasp pipeline.
+Multi-GPU Parallel Launcher for V2AP pipeline.
 
 Automatically shards sequences across all available GPUs.
 Falls back to single-GPU mode if only one GPU is present.

@@ -8,7 +8,7 @@ from huggingface_hub import HfApi
 
 api = HfApi()
 
-local_root = "/home/lyh/Project/Affordance2Grasp/data_hub/ProcessedData/depth/ThirdPerson/oakink"
+local_root = "/home/lyh/Project/V2AP/data_hub/ProcessedData/depth/ThirdPerson/oakink"
 repo_id = "UCBProject/ProcessedData"
 repo_type = "dataset"
 remote_prefix = "depth/ThirdPerson/Oakink"

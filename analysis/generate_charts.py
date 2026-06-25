@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Affordance2Grasp — 完整分析图表生成脚本
+V2AP — 完整分析图表生成脚本
 
 生成:
   1. 数据集统计（类别分布、接触比例）

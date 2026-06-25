@@ -216,7 +216,7 @@ class PointNet2AffordanceV6(nn.Module):
     """PointNet++ v6 for Continuous Affordance Heatmap Prediction.
 
     Architecture:
-        SA1: 1024pt, r=0.05, ns=32,  [6+3→64→64→128]
+        SA1: 1024pt, r=0.05, ns=32,  [3+3→64→64→128]
         SA2: 256pt,  r=0.10, ns=64,  [128+3→128→128→256]
         SA3: 64pt,   r=0.20, ns=128, [256+3→256→256→512]
         SA4: group_all                [512+3→512→512→1024]   ← global aggregation
@@ -224,12 +224,12 @@ class PointNet2AffordanceV6(nn.Module):
         FP4: 1024+512 → [512, 512]
         FP3: 256+512  → [256, 256]
         FP2: 128+256  → [256, 128]
-        FP1: 6+128    → [128, 128, 128]
+        FP1: 3+128    → [128, 128, 128]
 
         Head: Conv1d(128→128) + BN + ReLU + Dropout(0.3) + Conv1d(128→1) + Sigmoid
     """
 
-    def __init__(self, in_channel=6):
+    def __init__(self, in_channel=3):
         super().__init__()
 
         # Encoder: 4 SA layers — half-width channels to reduce overfitting

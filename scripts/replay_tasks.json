@@ -2,7 +2,7 @@
   {
     "obj_id": "A01001",
     "episode_id": "A01001_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01001/A01001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01001/A01001_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -13,7 +13,7 @@
   {
     "obj_id": "A01002",
     "episode_id": "A01002_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01002/A01002_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01002/A01002_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -24,7 +24,7 @@
   {
     "obj_id": "A01005",
     "episode_id": "A01005_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01005/A01005_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01005/A01005_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -35,7 +35,7 @@
   {
     "obj_id": "A01006",
     "episode_id": "A01006_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01006/A01006_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01006/A01006_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -46,7 +46,7 @@
   {
     "obj_id": "A01008",
     "episode_id": "A01008_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01008/A01008_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01008/A01008_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -57,7 +57,7 @@
   {
     "obj_id": "A01009",
     "episode_id": "A01009_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01009/A01009_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01009/A01009_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -68,7 +68,7 @@
   {
     "obj_id": "A01010",
     "episode_id": "A01010_a2g_pdm_yaw000_t002",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01010/A01010_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01010/A01010_yaw000_pool_grasp.hdf5",
     "candidate_index": 2,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -79,7 +79,7 @@
   {
     "obj_id": "A01023",
     "episode_id": "A01023_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01023/A01023_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01023/A01023_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -90,7 +90,7 @@
   {
     "obj_id": "A01026",
     "episode_id": "A01026_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01026/A01026_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01026/A01026_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -101,7 +101,7 @@
   {
     "obj_id": "A01027",
     "episode_id": "A01027_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01027/A01027_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A01027/A01027_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -112,7 +112,7 @@
   {
     "obj_id": "A02011",
     "episode_id": "A02011_a2g_pdm_yaw090_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02011/A02011_yaw090_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02011/A02011_yaw090_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -123,7 +123,7 @@
   {
     "obj_id": "A02012",
     "episode_id": "A02012_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02012/A02012_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02012/A02012_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -134,7 +134,7 @@
   {
     "obj_id": "A02014",
     "episode_id": "A02014_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02014/A02014_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02014/A02014_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -145,7 +145,7 @@
   {
     "obj_id": "A02015",
     "episode_id": "A02015_a2g_pdm_yaw000_t002",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02015/A02015_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02015/A02015_yaw000_pool_grasp.hdf5",
     "candidate_index": 2,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -156,7 +156,7 @@
   {
     "obj_id": "A02018",
     "episode_id": "A02018_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02018/A02018_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02018/A02018_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -167,7 +167,7 @@
   {
     "obj_id": "A02021",
     "episode_id": "A02021_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02021/A02021_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02021/A02021_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -178,7 +178,7 @@
   {
     "obj_id": "A02028",
     "episode_id": "A02028_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02028/A02028_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02028/A02028_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -189,7 +189,7 @@
   {
     "obj_id": "A02029",
     "episode_id": "A02029_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02029/A02029_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02029/A02029_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -200,7 +200,7 @@
   {
     "obj_id": "A02030",
     "episode_id": "A02030_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02030/A02030_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02030/A02030_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -211,7 +211,7 @@
   {
     "obj_id": "A02031",
     "episode_id": "A02031_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02031/A02031_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A02031/A02031_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -222,7 +222,7 @@
   {
     "obj_id": "A15015",
     "episode_id": "A15015_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A15015/A15015_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A15015/A15015_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -233,7 +233,7 @@
   {
     "obj_id": "A15027",
     "episode_id": "A15027_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A15027/A15027_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A15027/A15027_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -244,7 +244,7 @@
   {
     "obj_id": "A16012",
     "episode_id": "A16012_a2g_pdm_yaw000_t003",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A16012/A16012_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A16012/A16012_yaw000_pool_grasp.hdf5",
     "candidate_index": 3,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -255,7 +255,7 @@
   {
     "obj_id": "A16013",
     "episode_id": "A16013_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A16013/A16013_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A16013/A16013_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -266,7 +266,7 @@
   {
     "obj_id": "A16026",
     "episode_id": "A16026_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A16026/A16026_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/A16026/A16026_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -277,7 +277,7 @@
   {
     "obj_id": "C03001",
     "episode_id": "C03001_a2g_pdm_yaw000_t005",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C03001/C03001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C03001/C03001_yaw000_pool_grasp.hdf5",
     "candidate_index": 5,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -288,7 +288,7 @@
   {
     "obj_id": "C14001",
     "episode_id": "C14001_a2g_pdm_yaw000_t002",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C14001/C14001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C14001/C14001_yaw000_pool_grasp.hdf5",
     "candidate_index": 2,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -299,7 +299,7 @@
   {
     "obj_id": "C15001",
     "episode_id": "C15001_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C15001/C15001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C15001/C15001_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -310,7 +310,7 @@
   {
     "obj_id": "C28001",
     "episode_id": "C28001_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C28001/C28001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C28001/C28001_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -321,7 +321,7 @@
   {
     "obj_id": "C40001",
     "episode_id": "C40001_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C40001/C40001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C40001/C40001_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -332,7 +332,7 @@
   {
     "obj_id": "C50001",
     "episode_id": "C50001_a2g_pdm_yaw000_t003",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C50001/C50001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C50001/C50001_yaw000_pool_grasp.hdf5",
     "candidate_index": 3,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -343,7 +343,7 @@
   {
     "obj_id": "C52001",
     "episode_id": "C52001_a2g_pdm_yaw000_t002",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C52001/C52001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C52001/C52001_yaw000_pool_grasp.hdf5",
     "candidate_index": 2,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -354,7 +354,7 @@
   {
     "obj_id": "C90001",
     "episode_id": "C90001_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C90001/C90001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/C90001/C90001_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -365,7 +365,7 @@
   {
     "obj_id": "O01000",
     "episode_id": "O01000_a2g_pdm_yaw000_t004",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O01000/O01000_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O01000/O01000_yaw000_pool_grasp.hdf5",
     "candidate_index": 4,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -376,7 +376,7 @@
   {
     "obj_id": "O02001",
     "episode_id": "O02001_a2g_pdm_yaw000_t007",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O02001/O02001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O02001/O02001_yaw000_pool_grasp.hdf5",
     "candidate_index": 7,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -387,7 +387,7 @@
   {
     "obj_id": "O03001",
     "episode_id": "O03001_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O03001/O03001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O03001/O03001_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -398,7 +398,7 @@
   {
     "obj_id": "O03002",
     "episode_id": "O03002_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O03002/O03002_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O03002/O03002_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -409,7 +409,7 @@
   {
     "obj_id": "O03003",
     "episode_id": "O03003_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O03003/O03003_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O03003/O03003_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -420,7 +420,7 @@
   {
     "obj_id": "O21001",
     "episode_id": "O21001_a2g_pdm_yaw000_t006",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O21001/O21001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O21001/O21001_yaw000_pool_grasp.hdf5",
     "candidate_index": 6,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -431,7 +431,7 @@
   {
     "obj_id": "O36001",
     "episode_id": "O36001_a2g_pdm_yaw000_t005",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O36001/O36001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O36001/O36001_yaw000_pool_grasp.hdf5",
     "candidate_index": 5,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -442,7 +442,7 @@
   {
     "obj_id": "O36002",
     "episode_id": "O36002_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O36002/O36002_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O36002/O36002_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -453,7 +453,7 @@
   {
     "obj_id": "O50001",
     "episode_id": "O50001_a2g_pdm_yaw000_t002",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O50001/O50001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/O50001/O50001_yaw000_pool_grasp.hdf5",
     "candidate_index": 2,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -464,7 +464,7 @@
   {
     "obj_id": "S10005",
     "episode_id": "S10005_a2g_pdm_yaw000_t003",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10005/S10005_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10005/S10005_yaw000_pool_grasp.hdf5",
     "candidate_index": 3,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -475,7 +475,7 @@
   {
     "obj_id": "S10008",
     "episode_id": "S10008_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10008/S10008_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10008/S10008_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -486,7 +486,7 @@
   {
     "obj_id": "S10010",
     "episode_id": "S10010_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10010/S10010_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10010/S10010_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -497,7 +497,7 @@
   {
     "obj_id": "S10011",
     "episode_id": "S10011_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10011/S10011_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10011/S10011_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -508,7 +508,7 @@
   {
     "obj_id": "S10013",
     "episode_id": "S10013_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10013/S10013_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10013/S10013_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -519,7 +519,7 @@
   {
     "obj_id": "S10014",
     "episode_id": "S10014_a2g_pdm_yaw000_t002",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10014/S10014_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10014/S10014_yaw000_pool_grasp.hdf5",
     "candidate_index": 2,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -530,7 +530,7 @@
   {
     "obj_id": "S10017",
     "episode_id": "S10017_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10017/S10017_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10017/S10017_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -541,7 +541,7 @@
   {
     "obj_id": "S10018",
     "episode_id": "S10018_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10018/S10018_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10018/S10018_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -552,7 +552,7 @@
   {
     "obj_id": "S10020",
     "episode_id": "S10020_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10020/S10020_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10020/S10020_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -563,7 +563,7 @@
   {
     "obj_id": "S10022",
     "episode_id": "S10022_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10022/S10022_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S10022/S10022_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -574,7 +574,7 @@
   {
     "obj_id": "S15004",
     "episode_id": "S15004_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S15004/S15004_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S15004/S15004_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -585,7 +585,7 @@
   {
     "obj_id": "S16001",
     "episode_id": "S16001_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16001/S16001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16001/S16001_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -596,7 +596,7 @@
   {
     "obj_id": "S16002",
     "episode_id": "S16002_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16002/S16002_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16002/S16002_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -607,7 +607,7 @@
   {
     "obj_id": "S16003",
     "episode_id": "S16003_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16003/S16003_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16003/S16003_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -618,7 +618,7 @@
   {
     "obj_id": "S16005",
     "episode_id": "S16005_a2g_pdm_yaw000_t006",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16005/S16005_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S16005/S16005_yaw000_pool_grasp.hdf5",
     "candidate_index": 6,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -629,7 +629,7 @@
   {
     "obj_id": "S20001",
     "episode_id": "S20001_a2g_pdm_yaw000_t004",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S20001/S20001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S20001/S20001_yaw000_pool_grasp.hdf5",
     "candidate_index": 4,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -640,7 +640,7 @@
   {
     "obj_id": "S20021",
     "episode_id": "S20021_a2g_pdm_yaw180_t002",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S20021/S20021_yaw180_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S20021/S20021_yaw180_pool_grasp.hdf5",
     "candidate_index": 2,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -651,7 +651,7 @@
   {
     "obj_id": "S20022",
     "episode_id": "S20022_a2g_pdm_yaw000_t008",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S20022/S20022_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/S20022/S20022_yaw000_pool_grasp.hdf5",
     "candidate_index": 8,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -662,7 +662,7 @@
   {
     "obj_id": "Y03006",
     "episode_id": "Y03006_a2g_pdm_yaw000_t002",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y03006/Y03006_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y03006/Y03006_yaw000_pool_grasp.hdf5",
     "candidate_index": 2,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -673,7 +673,7 @@
   {
     "obj_id": "Y03021",
     "episode_id": "Y03021_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y03021/Y03021_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y03021/Y03021_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -684,7 +684,7 @@
   {
     "obj_id": "Y27035",
     "episode_id": "Y27035_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y27035/Y27035_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y27035/Y27035_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -695,7 +695,7 @@
   {
     "obj_id": "Y29040",
     "episode_id": "Y29040_a2g_pdm_yaw000_t007",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y29040/Y29040_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y29040/Y29040_yaw000_pool_grasp.hdf5",
     "candidate_index": 7,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -706,7 +706,7 @@
   {
     "obj_id": "Y35037",
     "episode_id": "Y35037_a2g_pdm_yaw000_t002",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y35037/Y35037_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/Y35037/Y35037_yaw000_pool_grasp.hdf5",
     "candidate_index": 2,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -717,7 +717,7 @@
   {
     "obj_id": "unseen_000",
     "episode_id": "unseen_000_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_000/unseen_000_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_000/unseen_000_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -728,7 +728,7 @@
   {
     "obj_id": "unseen_001",
     "episode_id": "unseen_001_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_001/unseen_001_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_001/unseen_001_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -739,7 +739,7 @@
   {
     "obj_id": "unseen_002",
     "episode_id": "unseen_002_a2g_pdm_yaw090_t009",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_002/unseen_002_yaw090_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_002/unseen_002_yaw090_pool_grasp.hdf5",
     "candidate_index": 9,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -750,7 +750,7 @@
   {
     "obj_id": "unseen_004",
     "episode_id": "unseen_004_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_004/unseen_004_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_004/unseen_004_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -761,7 +761,7 @@
   {
     "obj_id": "unseen_005",
     "episode_id": "unseen_005_a2g_pdm_yaw000_t005",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_005/unseen_005_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_005/unseen_005_yaw000_pool_grasp.hdf5",
     "candidate_index": 5,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -772,7 +772,7 @@
   {
     "obj_id": "unseen_006",
     "episode_id": "unseen_006_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_006/unseen_006_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_006/unseen_006_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -783,7 +783,7 @@
   {
     "obj_id": "unseen_007",
     "episode_id": "unseen_007_a2g_pdm_yaw000_t002",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_007/unseen_007_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_007/unseen_007_yaw000_pool_grasp.hdf5",
     "candidate_index": 2,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -794,7 +794,7 @@
   {
     "obj_id": "unseen_008",
     "episode_id": "unseen_008_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_008/unseen_008_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_008/unseen_008_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -805,7 +805,7 @@
   {
     "obj_id": "unseen_009",
     "episode_id": "unseen_009_a2g_pdm_yaw090_t007",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_009/unseen_009_yaw090_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_009/unseen_009_yaw090_pool_grasp.hdf5",
     "candidate_index": 7,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -816,7 +816,7 @@
   {
     "obj_id": "unseen_010",
     "episode_id": "unseen_010_a2g_pdm_yaw000_t007",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_010/unseen_010_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_010/unseen_010_yaw000_pool_grasp.hdf5",
     "candidate_index": 7,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -827,7 +827,7 @@
   {
     "obj_id": "unseen_011",
     "episode_id": "unseen_011_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_011/unseen_011_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_011/unseen_011_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -838,7 +838,7 @@
   {
     "obj_id": "unseen_014",
     "episode_id": "unseen_014_a2g_pdm_yaw000_t008",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_014/unseen_014_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_014/unseen_014_yaw000_pool_grasp.hdf5",
     "candidate_index": 8,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -849,7 +849,7 @@
   {
     "obj_id": "unseen_015",
     "episode_id": "unseen_015_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_015/unseen_015_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_015/unseen_015_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -860,7 +860,7 @@
   {
     "obj_id": "unseen_016",
     "episode_id": "unseen_016_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_016/unseen_016_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_016/unseen_016_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -871,7 +871,7 @@
   {
     "obj_id": "unseen_019",
     "episode_id": "unseen_019_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_019/unseen_019_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_019/unseen_019_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -882,7 +882,7 @@
   {
     "obj_id": "unseen_020",
     "episode_id": "unseen_020_a2g_pdm_yaw090_t009",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_020/unseen_020_yaw090_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_020/unseen_020_yaw090_pool_grasp.hdf5",
     "candidate_index": 9,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -893,7 +893,7 @@
   {
     "obj_id": "unseen_022",
     "episode_id": "unseen_022_a2g_pdm_yaw000_t002",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_022/unseen_022_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_022/unseen_022_yaw000_pool_grasp.hdf5",
     "candidate_index": 2,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -904,7 +904,7 @@
   {
     "obj_id": "unseen_024",
     "episode_id": "unseen_024_a2g_pdm_yaw000_t005",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_024/unseen_024_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_024/unseen_024_yaw000_pool_grasp.hdf5",
     "candidate_index": 5,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -915,7 +915,7 @@
   {
     "obj_id": "unseen_025",
     "episode_id": "unseen_025_a2g_pdm_yaw000_t009",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_025/unseen_025_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_025/unseen_025_yaw000_pool_grasp.hdf5",
     "candidate_index": 9,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -926,7 +926,7 @@
   {
     "obj_id": "unseen_026",
     "episode_id": "unseen_026_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_026/unseen_026_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_026/unseen_026_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -937,7 +937,7 @@
   {
     "obj_id": "unseen_027",
     "episode_id": "unseen_027_a2g_pdm_yaw000_t005",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_027/unseen_027_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_027/unseen_027_yaw000_pool_grasp.hdf5",
     "candidate_index": 5,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -948,7 +948,7 @@
   {
     "obj_id": "unseen_028",
     "episode_id": "unseen_028_a2g_pdm_yaw090_t007",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_028/unseen_028_yaw090_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/unseen_028/unseen_028_yaw090_pool_grasp.hdf5",
     "candidate_index": 7,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -959,7 +959,7 @@
   {
     "obj_id": "ycb_dex_03",
     "episode_id": "ycb_dex_03_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_03/ycb_dex_03_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_03/ycb_dex_03_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -970,7 +970,7 @@
   {
     "obj_id": "ycb_dex_04",
     "episode_id": "ycb_dex_04_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_04/ycb_dex_04_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_04/ycb_dex_04_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -981,7 +981,7 @@
   {
     "obj_id": "ycb_dex_05",
     "episode_id": "ycb_dex_05_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_05/ycb_dex_05_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_05/ycb_dex_05_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -992,7 +992,7 @@
   {
     "obj_id": "ycb_dex_07",
     "episode_id": "ycb_dex_07_a2g_pdm_yaw090_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_07/ycb_dex_07_yaw090_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_07/ycb_dex_07_yaw090_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -1003,7 +1003,7 @@
   {
     "obj_id": "ycb_dex_08",
     "episode_id": "ycb_dex_08_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_08/ycb_dex_08_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_08/ycb_dex_08_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -1014,7 +1014,7 @@
   {
     "obj_id": "ycb_dex_12",
     "episode_id": "ycb_dex_12_a2g_pdm_yaw000_t006",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_12/ycb_dex_12_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_12/ycb_dex_12_yaw000_pool_grasp.hdf5",
     "candidate_index": 6,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -1025,7 +1025,7 @@
   {
     "obj_id": "ycb_dex_14",
     "episode_id": "ycb_dex_14_a2g_pdm_yaw000_t006",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_14/ycb_dex_14_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_14/ycb_dex_14_yaw000_pool_grasp.hdf5",
     "candidate_index": 6,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -1036,7 +1036,7 @@
   {
     "obj_id": "ycb_dex_15",
     "episode_id": "ycb_dex_15_a2g_pdm_yaw000_t001",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_15/ycb_dex_15_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_15/ycb_dex_15_yaw000_pool_grasp.hdf5",
     "candidate_index": 1,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -1047,7 +1047,7 @@
   {
     "obj_id": "ycb_dex_17",
     "episode_id": "ycb_dex_17_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_17/ycb_dex_17_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_17/ycb_dex_17_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [
@@ -1058,7 +1058,7 @@
   {
     "obj_id": "ycb_dex_18",
     "episode_id": "ycb_dex_18_a2g_pdm_yaw000_t000",
-    "candidate_hdf5": "/home/lyh/Project/Affordance2Grasp/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_18/ycb_dex_18_yaw000_pool_grasp.hdf5",
+    "candidate_hdf5": "/home/lyh/Project/V2AP/output/evaluation/hp_pdm_yaw4x10_random_xy_seed42/candidates/ycb_dex_18/ycb_dex_18_yaw000_pool_grasp.hdf5",
     "candidate_index": 0,
     "z_yaw_deg": 0,
     "obj_xy_offset": [

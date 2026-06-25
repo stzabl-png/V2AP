@@ -121,7 +121,7 @@ def main():
     print("# 逐个物体运行（复制下面的指令）:")
     ISAAC = '/home/lyh/isaac-sim-5.0/python.sh'
     for obj_id, n, path in obj_list:
-        usd = f'/home/lyh/Project/Affordance2Grasp/data_hub/usd/{obj_id}.usd'
+        usd = f'/home/lyh/Project/V2AP/data_hub/usd/{obj_id}.usd'
         print(f"{ISAAC} sim/run_grasp_sim.py \\")
         print(f"    --hdf5 {path} \\")
         print(f"    --object_scale 1.0 \\")

@@ -33,7 +33,7 @@ Pool 路线详见 **第 5 节**；Legacy 见 **第 4 节**。
 
 | 变量 | 含义 | 示例 |
 |------|------|------|
-| `PROJ` | 本仓库根目录 | `~/Project/Affordance2Grasp` |
+| `PROJ` | 本仓库根目录 | `~/Project/V2AP` |
 | `ISAAC_SIM_PATH` | Isaac Sim 安装根目录（含 `python.sh`） | 见下方说明 |
 
 **如何找到 Isaac Sim 路径：** 安装目录下应有 `python.sh`，例如：
@@ -51,7 +51,7 @@ ls "$ISAAC_SIM_PATH/python.sh"
 ```bash
 conda activate bundlesdf   # 或你用于 sampler/convert 的环境名
 
-export PROJ=/path/to/Affordance2Grasp
+export PROJ=/path/to/V2AP
 cd "$PROJ"
 
 export ISAAC_SIM_PATH=/path/to/your/isaac-sim   # ← 改成你的 Isaac 根目录
@@ -380,7 +380,7 @@ python3 scripts/batch_grasp_collect.py \
 
 ```bash
 conda activate bundlesdf
-export PROJ=/path/to/Affordance2Grasp
+export PROJ=/path/to/V2AP
 export ISAAC_SIM_PATH=/path/to/your/isaac-sim
 cd "$PROJ"
 
@@ -603,7 +603,7 @@ batch_sim_candidates_pool.py（候选池 sim batch）
 
 ```bash
 conda activate bundlesdf
-export PROJ=/path/to/Affordance2Grasp
+export PROJ=/path/to/V2AP
 cd "$PROJ"
 
 python3 scripts/batch_gen_candidates_pool.py \
@@ -806,7 +806,7 @@ cat output/grasp_collect_no_rot/round_0015_task_queue.json | python3 -m json.too
 ```bash
 # 0. 环境（路径改成你的）
 conda activate bundlesdf
-export PROJ=/path/to/Affordance2Grasp
+export PROJ=/path/to/V2AP
 export ISAAC_SIM_PATH=/path/to/your/isaac-sim
 cd "$PROJ"
 

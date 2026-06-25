@@ -22,11 +22,11 @@ Tools (data assets — download as needed):
     thirdmasks  — Third-person FP init masks (DexYCB/HO3D/OakInk/TACO, ~30 MB)
                   Source: UCBProject/ThirdDataMask
     objmeshes   — Object meshes for FP (YCB+EgoDex+OakInk, ~1 GB)
-                  Source: UCBProject/Affordance2Grasp-Mesh
+                  Source: UCBProject/V2AP-Mesh
     egodex      — EgoDex raw videos (~30 GB, 3051 sequences)
-                  Source: UCBProject/Affordance2Grasp-EgoDex
+                  Source: UCBProject/V2AP-EgoDex
     taco        — TACO Allocentric+Ego raw videos (~120+24 GB)
-                  Source: UCBProject/Affordance2Grasp-TACO
+                  Source: UCBProject/V2AP-TACO
 
 Notes:
     - MANO model weights require manual registration at https://mano.is.tue.mpg.de/
@@ -47,7 +47,7 @@ except ImportError:
     print("❌ huggingface_hub not installed. Run: pip install huggingface_hub")
     sys.exit(1)
 
-WEIGHTS_REPO = "UCBProject/Affordance2Grasp-Weights"   # model weights
+WEIGHTS_REPO = "UCBProject/V2AP-Weights"   # model weights
 REPO_TYPE    = "dataset"
 PROJECT      = Path(__file__).parent
 
@@ -240,12 +240,12 @@ def download_third_masks():
 
 
 def download_obj_meshes():
-    """Download object meshes from UCBProject/Affordance2Grasp-Mesh (~1 GB).
+    """Download object meshes from UCBProject/V2AP-Mesh (~1 GB).
 
     Provides obj_meshes/{ycb,egocentric,oakink}/ needed by Phase 1A+1B
     FoundationPose and scale estimation.
     """
-    print("\n📥 Object meshes — UCBProject/Affordance2Grasp-Mesh (~1 GB)...")
+    print("\n📥 Object meshes — UCBProject/V2AP-Mesh (~1 GB)...")
     dest = PROJECT / "data_hub" / "ProcessedData" / "obj_meshes"
     if dest.exists() and any(dest.iterdir()):
         n = sum(1 for _ in dest.iterdir() if _.is_dir())
@@ -254,7 +254,7 @@ def download_obj_meshes():
     dest.mkdir(parents=True, exist_ok=True)
     tmp = PROJECT / ".hf_tmp_meshes"
     snapshot_download(
-        repo_id="UCBProject/Affordance2Grasp-Mesh",
+        repo_id="UCBProject/V2AP-Mesh",
         repo_type="dataset",
         local_dir=str(tmp),
     )
@@ -271,11 +271,11 @@ def download_obj_meshes():
 
 
 def download_oakink():
-    """Download OakInk v1 raw data from UCBProject/Affordance2Grasp-OakInk (~25 GB).
+    """Download OakInk v1 raw data from UCBProject/V2AP-OakInk (~25 GB).
 
     Places data at: data_hub/RawData/ThirdPersonRawData/oakink/
     """
-    print("\n📥 OakInk v1 raw data — UCBProject/Affordance2Grasp-OakInk (~25 GB)...")
+    print("\n📥 OakInk v1 raw data — UCBProject/V2AP-OakInk (~25 GB)...")
     dest = PROJECT / "data_hub" / "RawData" / "ThirdPersonRawData" / "oakink"
     if dest.exists() and any(dest.iterdir()):
         n = sum(1 for _ in dest.iterdir() if _.is_dir())
@@ -283,7 +283,7 @@ def download_oakink():
         return
     dest.mkdir(parents=True, exist_ok=True)
     snapshot_download(
-        repo_id="UCBProject/Affordance2Grasp-OakInk",
+        repo_id="UCBProject/V2AP-OakInk",
         repo_type="dataset",
         local_dir=str(dest),
     )
@@ -292,7 +292,7 @@ def download_oakink():
 
 
 def download_egodex():
-    """Download EgoDex raw dataset from UCBProject/Affordance2Grasp-EgoDex (~30 GB)."""
+    """Download EgoDex raw dataset from UCBProject/V2AP-EgoDex (~30 GB)."""
     print("\n📥 EgoDex raw dataset (~30 GB, 101 tasks, 3051 sequences)...")
     dest = PROJECT / "data_hub" / "RawData" / "EgoRawData" / "egodex"
     if dest.exists() and any(dest.iterdir()):
@@ -301,7 +301,7 @@ def download_egodex():
         return
     dest.mkdir(parents=True, exist_ok=True)
     snapshot_download(
-        repo_id="UCBProject/Affordance2Grasp-EgoDex",
+        repo_id="UCBProject/V2AP-EgoDex",
         repo_type="dataset",
         local_dir=str(dest),
     )
@@ -310,11 +310,11 @@ def download_egodex():
 
 
 def download_taco():
-    """Download TACO dataset from UCBProject/Affordance2Grasp-TACO.
+    """Download TACO dataset from UCBProject/V2AP-TACO.
 
     Contains both Allocentric (~120 GB) and Egocentric (~24 GB) splits.
     """
-    print("\n📥 TACO dataset — UCBProject/Affordance2Grasp-TACO (~144 GB total)...")
+    print("\n📥 TACO dataset — UCBProject/V2AP-TACO (~144 GB total)...")
     raw_base = PROJECT / "data_hub" / "RawData" / "ThirdPersonRawData" / "taco"
     ego_base = PROJECT / "data_hub" / "RawData" / "EgoRawData" / "taco"
 
@@ -329,7 +329,7 @@ def download_taco():
     print("   download manually from taco-group.github.io if preferred.")
     tmp = PROJECT / ".hf_tmp_taco"
     snapshot_download(
-        repo_id="UCBProject/Affordance2Grasp-TACO",
+        repo_id="UCBProject/V2AP-TACO",
         repo_type="dataset",
         local_dir=str(tmp),
     )
@@ -392,7 +392,7 @@ Examples:
     args = parser.parse_args()
 
     print("=" * 60)
-    print("  Affordance2Grasp — Setup")
+    print("  V2AP — Setup")
     print(f"  Weights: {WEIGHTS_REPO}")
     print("=" * 60)
 
